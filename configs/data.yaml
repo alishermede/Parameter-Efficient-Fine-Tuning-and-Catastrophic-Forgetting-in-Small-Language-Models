@@ -1,0 +1,40 @@
+# Data sources and sampling. Revisions are pinned after the first prepare_data.py run
+# (it prints and stores the resolved commit hash of every dataset in data/manifest.json).
+
+seed: 2026
+ngram: 13                     # word 13-grams for decontamination (Brown et al., 2020)
+
+sizes:
+  train_per_domain: 2000
+  dev_per_domain: 200
+  test_medmcqa: 500           # from the official validation split (test labels are not public)
+  test_casehold: 500
+  test_gsm8k: 500             # of 1,319
+  mmlu_per_subject: 30        # 42 primary subjects -> 1,260; 15 overlapping subjects -> 450
+
+sources:
+  medmcqa:
+    repo: openlifescienceai/medmcqa
+    config: null
+    revision: main
+  casehold:
+    repo: coastalcph/lex_glue
+    config: case_hold
+    revision: main
+    fallback_repo: casehold/casehold
+    fallback_config: all
+  codealpaca:
+    repo: sahil2801/CodeAlpaca-20k
+    config: null
+    revision: main
+  mbpp:
+    repo: google-research-datasets/mbpp
+    config: full
+    revision: main
+  mmlu:
+    repo: cais/mmlu
+    revision: main
+  gsm8k:
+    repo: openai/gsm8k
+    config: main
+    revision: main

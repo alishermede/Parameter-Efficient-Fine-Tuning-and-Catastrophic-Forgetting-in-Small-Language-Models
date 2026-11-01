@@ -1,0 +1,62 @@
+# Frozen experimental configuration (Assignment 4).
+# Any change after the Protocol Freeze upload must be logged in docs/deviations.md.
+
+models:
+  primary:
+    id: Qwen/Qwen2.5-0.5B
+    revision: main          # replace with the commit hash printed by prepare_data.py / train.py
+    short: q25-05b
+  replication:
+    id: Qwen/Qwen3-0.6B-Base
+    revision: main
+    short: q3-06b
+
+# Domain order: M = medicine (MedMCQA), L = law (CaseHOLD), C = code (CodeAlpaca)
+orders:
+  MLC: [medmcqa, casehold, code]
+  CLM: [code, casehold, medmcqa]
+
+training:
+  epochs_per_stage: 2
+  max_length: 512
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4      # effective batch size 16
+  optimizer: adamw_torch
+  lr_scheduler: linear                # restarted at every stage (new optimiser per stage, all methods)
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  gradient_checkpointing: true
+  fp16: true                          # T4 has no bf16: fp32 master weights + fp16 autocast
+  checkpoint_fractions: [0.25, 0.5, 0.75, 1.0]
+  medmcqa_include_explanation: true   # target = "The answer is X. <option>\nExplanation: <exp>"
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+adapter:
+  # Sequential bottleneck adapter after each feed-forward block (Pfeiffer et al., 2021),
+  # bottleneck size computed per model so trainable parameters match LoRA.
+  non_linearity: relu
+  match_tolerance: 0.05
+
+lr_grid:
+  full: [1.0e-5, 2.0e-5, 5.0e-5]
+  lora: [1.0e-4, 2.0e-4, 5.0e-4]
+  adapter: [1.0e-4, 3.0e-4, 1.0e-3]
+
+seeds:
+  lr_search: 0
+  primary: [1, 2, 3]
+  replication: [1]
+  reversed: [1]
+
+dev_eval:
+  batch_size: 8
+  max_length: 512
+  mbpp_dev_on_code_stage: true
+  mbpp_max_new_tokens: 384
+  mbpp_timeout_s: 10
