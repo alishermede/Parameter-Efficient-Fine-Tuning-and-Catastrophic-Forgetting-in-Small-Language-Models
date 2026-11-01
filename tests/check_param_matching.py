@@ -45,8 +45,9 @@ def build(model_id: str, from_hub: bool):
             from transformers import Qwen3Config
 
             cfg = Qwen3Config(**kw)
+    model_cls = AutoModelForCausalLM._model_mapping[type(cfg)]  # import outside the meta context
     with torch.device("meta"):
-        return AutoModelForCausalLM.from_config(cfg)
+        return model_cls(cfg)
 
 
 def main() -> int:

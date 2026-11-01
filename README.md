@@ -42,6 +42,7 @@ docs/                     protocol freeze form, deviations log
 git clone https://github.com/alishermede/parameter-efficient-fine-tuning-and-catastrophic-forgetting-in-small-language-models.git
 cd parameter-efficient-fine-tuning-and-catastrophic-forgetting-in-small-language-models
 pip install -r requirements.txt        # torch: use the CUDA build already installed (Kaggle/Colab)
+pip uninstall -y torchao               # Kaggle's torchao 0.10 breaks peft 0.21; not used here
 export HF_TOKEN=<token with write access>   # only needed to push checkpoints to the Hub
 ```
 

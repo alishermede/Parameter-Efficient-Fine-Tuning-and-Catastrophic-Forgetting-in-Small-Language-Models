@@ -60,7 +60,7 @@ def mcq_accuracy(model, tok, items: list[dict], max_length: int = 512, batch_siz
         batch = contexts[start:start + batch_size]
         ids, mask, pos = _left_pad(batch, tok.pad_token_id, device)
         with _autocast(device):
-            logits = model(input_ids=ids, attention_mask=mask, position_ids=pos).logits[:, -1, :]
+            logits = model(input_ids=ids, attention_mask=mask, position_ids=pos, logits_to_keep=1).logits[:, -1, :]
         scores = F.log_softmax(logits.float(), dim=-1)[:, letter_ids]
         pred = scores.argmax(-1).tolist()
         for j, p in enumerate(pred):
@@ -73,6 +73,7 @@ def mcq_accuracy(model, tok, items: list[dict], max_length: int = 512, batch_siz
 @torch.no_grad()
 def response_loss(model, tok, items: list[dict], max_length: int = 512, batch_size: int = 8) -> dict:
     device = next(model.parameters()).device
+    batch_size = max(1, batch_size // 4)  # full-vocabulary logits for every position are large
     total_loss, total_tokens = 0.0, 0
     feats = [tokenize_example(tok, it, max_length) for it in items]
     for start in range(0, len(feats), batch_size):
