@@ -76,11 +76,11 @@ python src/train.py --method <full|lora|adapter> --seed <1|2|3> --model primary 
     --ckpt_root /kaggle/working/ckpts --hub_repo <hf-user>/rmt-peft-ckpts --delete_after_push
 ```
 
-| Account | Runs |
-|---|---|
-| Participant 1 | LR search (9 short runs); `full` seeds 1, 2, 3 (primary, MLC) |
-| Participant 2 | `lora` seeds 1, 2, 3 (primary, MLC); `full`, `lora`, `adapter` seed 1 with `--model replication` |
-| Participant 3 | `adapter` seeds 1, 2, 3 (primary, MLC); `full`, `lora`, `adapter` seed 1 with `--order CLM` |
+| Account | Runs | ≈ GPU-h |
+|---|---|---|
+| Participant 1 | LR search (done); all 9 primary runs: `full`, `lora`, `adapter` × seeds 1, 2, 3 (MLC) — three sessions, one method each with `SEED = [1, 2, 3]` | 10–12 |
+| Participant 2 | 3 replication runs: `full`, `lora`, `adapter`, seed 1, `--model replication`; test-set evaluation (share) | 4 + eval |
+| Participant 3 | 3 reversed-order runs: `full`, `lora`, `adapter`, seed 1, `--order CLM`; test-set evaluation (share); reproduction test | 4 + eval |
 
 **5. Collect logs** from all accounts into `results/`:
 ```bash
