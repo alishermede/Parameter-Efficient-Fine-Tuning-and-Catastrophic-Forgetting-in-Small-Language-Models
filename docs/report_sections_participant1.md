@@ -31,7 +31,7 @@ Table 4. Final experimental setup.
 
 | Item | Setting |
 |---|---|
-| Base models | Qwen/Qwen2.5-0.5B, revision 060db64 (primary, seeds 1–3); Qwen/Qwen3-0.6B-Base, revision [fill] (replication, seed 1) |
+| Base models | Qwen/Qwen2.5-0.5B, revision 060db64 (primary, seeds 1–3); Qwen/Qwen3-0.6B-Base, revision da87bfb (replication, seed 1) |
 | Domain order | Medicine → law → code; reversed order (code → law → medicine) for one seed per method |
 | Trainable parameters | Full: 494.0 M (100%); LoRA: 8.80 M (1.78%); adapter: 8.80 M (1.78%) — Qwen2.5-0.5B |
 | Training | 2 epochs per stage, effective batch 16 (2 per device × 8 accumulation), 250 optimiser steps per stage, max length 512 tokens, loss on response tokens only |

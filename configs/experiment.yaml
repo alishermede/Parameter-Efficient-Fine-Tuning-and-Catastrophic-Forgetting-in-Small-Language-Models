@@ -8,7 +8,7 @@ models:
     short: q25-05b
   replication:
     id: Qwen/Qwen3-0.6B-Base
-    revision: main
+    revision: da87bfb608c14b7cf20ba1ce41287e8de496c0cd   # main on 2026-11-02 ("Create LICENSE")
     short: q3-06b
 
 # Domain order: M = medicine (MedMCQA), L = law (CaseHOLD), C = code (CodeAlpaca)
