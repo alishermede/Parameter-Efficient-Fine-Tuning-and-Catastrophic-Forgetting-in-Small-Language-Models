@@ -1,0 +1,9 @@
+{"stage": 1, "domain": "medmcqa", "loss": 2.3877, "grad_norm": 1.2157119512557983, "learning_rate": 0.00013600000000000003, "epoch": 0.8, "step": 10}
+{"stage": 1, "domain": "medmcqa", "loss": 2.1369, "grad_norm": 1.024888515472412, "learning_rate": 5.6000000000000006e-05, "epoch": 1.56, "step": 20}
+{"stage": 1, "domain": "medmcqa", "train_runtime": 81.9518, "train_samples_per_second": 4.881, "train_steps_per_second": 0.317, "total_flos": 199446128448000.0, "train_loss": 2.2478863275968113, "epoch": 2.0, "step": 26}
+{"stage": 2, "domain": "casehold", "loss": 0.0745, "grad_norm": 0.37418249249458313, "learning_rate": 0.00013600000000000003, "epoch": 0.8, "step": 10}
+{"stage": 2, "domain": "casehold", "loss": 0.0351, "grad_norm": 0.23420780897140503, "learning_rate": 5.6000000000000006e-05, "epoch": 1.56, "step": 20}
+{"stage": 2, "domain": "casehold", "train_runtime": 96.397, "train_samples_per_second": 4.15, "train_steps_per_second": 0.27, "total_flos": 424585934645760.0, "train_loss": 0.05030512695129101, "epoch": 2.0, "step": 26}
+{"stage": 3, "domain": "code", "loss": 0.7102, "grad_norm": 1.2266885042190552, "learning_rate": 0.00013600000000000003, "epoch": 0.8, "step": 10}
+{"stage": 3, "domain": "code", "loss": 0.4432, "grad_norm": 0.8980773091316223, "learning_rate": 5.6000000000000006e-05, "epoch": 1.56, "step": 20}
+{"stage": 3, "domain": "code", "train_runtime": 203.8539, "train_samples_per_second": 1.962, "train_steps_per_second": 0.128, "total_flos": 99668059776000.0, "train_loss": 0.5524268242029043, "epoch": 2.0, "step": 26}

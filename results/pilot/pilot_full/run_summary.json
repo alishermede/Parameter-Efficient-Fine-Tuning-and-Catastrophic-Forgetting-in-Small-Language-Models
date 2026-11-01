@@ -1,0 +1,159 @@
+{
+  "run_id": "pilot_full",
+  "stages": [
+    {
+      "stage": 1,
+      "domain": "medmcqa",
+      "examples": 200,
+      "tokens": 34522,
+      "response_tokens": 21587,
+      "max_steps": 26,
+      "checkpoint_steps": [
+        13,
+        26
+      ],
+      "wall_seconds": 64.7,
+      "train_seconds": 52.9,
+      "dev_eval_seconds": 7.2,
+      "save_upload_seconds": 4.6,
+      "peak_gpu_memory_gib": 9.843,
+      "final_train_loss": 1.9909360592181866
+    },
+    {
+      "stage": 2,
+      "domain": "casehold",
+      "examples": 200,
+      "tokens": 90436,
+      "response_tokens": 7366,
+      "max_steps": 26,
+      "checkpoint_steps": [
+        13,
+        26
+      ],
+      "wall_seconds": 91.8,
+      "train_seconds": 79.9,
+      "dev_eval_seconds": 7.2,
+      "save_upload_seconds": 4.7,
+      "peak_gpu_memory_gib": 9.844,
+      "final_train_loss": 0.06136615918232845
+    },
+    {
+      "stage": 3,
+      "domain": "code",
+      "examples": 200,
+      "tokens": 17118,
+      "response_tokens": 10750,
+      "max_steps": 26,
+      "checkpoint_steps": [
+        13,
+        26
+      ],
+      "wall_seconds": 145.0,
+      "train_seconds": 46.5,
+      "dev_eval_seconds": 93.9,
+      "save_upload_seconds": 4.6,
+      "peak_gpu_memory_gib": 9.735,
+      "final_train_loss": 0.523364754823538
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": "stage0",
+      "stage": 0,
+      "domain": null,
+      "fraction": 0.0,
+      "step": 0,
+      "cumulative_step": 0,
+      "medmcqa_dev_acc": 0.3,
+      "casehold_dev_acc": 0.22,
+      "code_dev_loss": 0.5558108345865767,
+      "mbpp_dev_pass_at_1": 0.24,
+      "dev_eval_seconds": 69.6,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage0"
+    },
+    {
+      "checkpoint": "stage1_medmcqa_050",
+      "stage": 1,
+      "domain": "medmcqa",
+      "fraction": 0.5,
+      "step": 13,
+      "cumulative_step": 13,
+      "medmcqa_dev_acc": 0.2,
+      "casehold_dev_acc": 0.24,
+      "code_dev_loss": 0.6610609797633753,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 3.5,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage1_medmcqa_050"
+    },
+    {
+      "checkpoint": "stage1_medmcqa_100",
+      "stage": 1,
+      "domain": "medmcqa",
+      "fraction": 1.0,
+      "step": 26,
+      "cumulative_step": 26,
+      "medmcqa_dev_acc": 0.4,
+      "casehold_dev_acc": 0.38,
+      "code_dev_loss": 0.7193305728545717,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 3.7,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage1_medmcqa_100"
+    },
+    {
+      "checkpoint": "stage2_casehold_050",
+      "stage": 2,
+      "domain": "casehold",
+      "fraction": 0.5,
+      "step": 13,
+      "cumulative_step": 39,
+      "medmcqa_dev_acc": 0.12,
+      "casehold_dev_acc": 0.24,
+      "code_dev_loss": 0.9157450333817077,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 3.5,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage2_casehold_050"
+    },
+    {
+      "checkpoint": "stage2_casehold_100",
+      "stage": 2,
+      "domain": "casehold",
+      "fraction": 1.0,
+      "step": 26,
+      "cumulative_step": 52,
+      "medmcqa_dev_acc": 0.4,
+      "casehold_dev_acc": 0.46,
+      "code_dev_loss": 0.9229710719555682,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 3.6,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage2_casehold_100"
+    },
+    {
+      "checkpoint": "stage3_code_050",
+      "stage": 3,
+      "domain": "code",
+      "fraction": 0.5,
+      "step": 13,
+      "cumulative_step": 65,
+      "medmcqa_dev_acc": 0.44,
+      "casehold_dev_acc": 0.5,
+      "code_dev_loss": 0.5441966375181627,
+      "mbpp_dev_pass_at_1": 0.14,
+      "dev_eval_seconds": 40.8,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage3_code_050"
+    },
+    {
+      "checkpoint": "stage3_code_100",
+      "stage": 3,
+      "domain": "code",
+      "fraction": 1.0,
+      "step": 26,
+      "cumulative_step": 78,
+      "medmcqa_dev_acc": 0.44,
+      "casehold_dev_acc": 0.52,
+      "code_dev_loss": 0.5804922921816741,
+      "mbpp_dev_pass_at_1": 0.24,
+      "dev_eval_seconds": 53.1,
+      "checkpoint_dir": "/kaggle/working/ckpts/pilot/pilot_full/stage3_code_100"
+    }
+  ]
+}
