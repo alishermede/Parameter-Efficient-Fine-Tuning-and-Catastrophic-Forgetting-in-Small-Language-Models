@@ -1,0 +1,10 @@
+model,method,lr,medmcqa_dev_acc,source,selected
+q25-05b,full,1e-05,0.435,results/lr_search/lrsearch_q25-05b_full_lr1e-5_s0/dev_metrics.jsonl,False
+q25-05b,full,2e-05,0.44,results/lr_search/lrsearch_q25-05b_full_lr2e-5_s0/dev_metrics.jsonl,True
+q25-05b,full,5e-05,0.375,results/lr_search/lrsearch_q25-05b_full_lr5e-5_s0/dev_metrics.jsonl,False
+q25-05b,lora,0.0001,0.455,results/lr_search/lrsearch_q25-05b_lora_lr1e-4_s0/dev_metrics.jsonl,False
+q25-05b,lora,0.0002,0.46,results/lr_search/lrsearch_q25-05b_lora_lr2e-4_s0/dev_metrics.jsonl,True
+q25-05b,lora,0.0005,0.435,results/lr_search/lrsearch_q25-05b_lora_lr5e-4_s0/dev_metrics.jsonl,False
+q25-05b,adapter,0.0001,0.46,results/lr_search/lrsearch_q25-05b_adapter_lr1e-4_s0/dev_metrics.jsonl,False
+q25-05b,adapter,0.0003,0.47,results/lr_search/lrsearch_q25-05b_adapter_lr3e-4_s0/dev_metrics.jsonl,True
+q25-05b,adapter,0.001,0.45,results/lr_search/lrsearch_q25-05b_adapter_lr1e-3_s0/dev_metrics.jsonl,False

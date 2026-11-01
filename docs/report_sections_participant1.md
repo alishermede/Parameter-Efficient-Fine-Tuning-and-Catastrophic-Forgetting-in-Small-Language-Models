@@ -36,7 +36,7 @@ Table 4. Final experimental setup.
 | Trainable parameters | Full: 494.0 M (100%); LoRA: 8.80 M (1.78%); adapter: 8.80 M (1.78%) — Qwen2.5-0.5B |
 | Training | 2 epochs per stage, effective batch 16 (2 per device × 8 accumulation), 250 optimiser steps per stage, max length 512 tokens, loss on response tokens only |
 | Optimiser | AdamW, linear schedule with 3% warm-up restarted at every stage, weight decay 0, gradient clipping 1.0 |
-| Learning rate | Full [fill], LoRA [fill], adapter [fill] — chosen from {1e-5, 2e-5, 5e-5}, {1e-4, 2e-4, 5e-4}, {1e-4, 3e-4, 1e-3} (`configs/lr_selected.json`, `results/lr_search/summary.csv`) |
+| Learning rate | Full 2e-5, LoRA 2e-4, adapter 3e-4 — chosen from {1e-5, 2e-5, 5e-5}, {1e-4, 2e-4, 5e-4}, {1e-4, 3e-4, 1e-3} (`configs/lr_selected.json`, `results/lr_search/summary.csv`) |
 | Checkpoints | 25, 50, 75 and 100% of every stage (steps 63, 125, 188, 250) |
 | Precision and hardware | fp16 mixed precision with fp32 master weights; gradient checkpointing for all methods; one NVIDIA T4 16 GB (Kaggle) |
 | Software | Python 3.13, PyTorch 2.11.0 (CUDA 12.8), transformers 4.57.6, peft 0.21.2, adapters 1.3.0, datasets 4.8.5, accelerate 1.12.0, lm-evaluation-harness 0.4.13 |

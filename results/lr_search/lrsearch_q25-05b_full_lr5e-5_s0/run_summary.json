@@ -1,0 +1,52 @@
+{
+  "run_id": "lrsearch_q25-05b_full_lr5e-5_s0",
+  "stages": [
+    {
+      "stage": 1,
+      "domain": "medmcqa",
+      "examples": 2000,
+      "tokens": 364036,
+      "response_tokens": 235958,
+      "max_steps": 250,
+      "checkpoint_steps": [
+        250
+      ],
+      "wall_seconds": 596.8,
+      "train_seconds": 582.3,
+      "dev_eval_seconds": 14.4,
+      "save_upload_seconds": 0.0,
+      "peak_gpu_memory_gib": 9.843,
+      "final_train_loss": 1.8838293685913086
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": "stage0",
+      "stage": 0,
+      "domain": null,
+      "fraction": 0.0,
+      "step": 0,
+      "cumulative_step": 0,
+      "medmcqa_dev_acc": 0.335,
+      "casehold_dev_acc": 0.265,
+      "code_dev_loss": 0.5681610979565987,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 14.5,
+      "checkpoint_dir": "checkpoints/lrsearch_q25-05b_full_lr5e-5_s0/stage0"
+    },
+    {
+      "checkpoint": "stage1_medmcqa_100",
+      "stage": 1,
+      "domain": "medmcqa",
+      "fraction": 1.0,
+      "step": 250,
+      "cumulative_step": 250,
+      "medmcqa_dev_acc": 0.375,
+      "casehold_dev_acc": 0.26,
+      "code_dev_loss": 0.8716225808609127,
+      "mbpp_dev_pass_at_1": null,
+      "dev_eval_seconds": 14.4,
+      "checkpoint_dir": null
+    }
+  ]
+}

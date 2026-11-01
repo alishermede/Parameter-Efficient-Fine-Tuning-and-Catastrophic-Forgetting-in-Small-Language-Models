@@ -1,0 +1,9 @@
+{
+  "q25-05b": {
+    "full": 2e-05,
+    "lora": 0.0002,
+    "adapter": 0.0003
+  },
+  "_applies_to_all_models_from": "q25-05b",
+  "_rule": "max MedMCQA-dev accuracy after Stage 1, seed 0; ties -> smaller LR"
+}
