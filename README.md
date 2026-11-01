@@ -39,8 +39,8 @@ docs/                     protocol freeze form, deviations log
 ## Installation
 
 ```bash
-git clone https://github.com/<github-user>/rmt-peft-forgetting.git
-cd rmt-peft-forgetting
+git clone https://github.com/alishermede/parameter-efficient-fine-tuning-and-catastrophic-forgetting-in-small-language-models.git
+cd parameter-efficient-fine-tuning-and-catastrophic-forgetting-in-small-language-models
 pip install -r requirements.txt        # torch: use the CUDA build already installed (Kaggle/Colab)
 export HF_TOKEN=<token with write access>   # only needed to push checkpoints to the Hub
 ```
