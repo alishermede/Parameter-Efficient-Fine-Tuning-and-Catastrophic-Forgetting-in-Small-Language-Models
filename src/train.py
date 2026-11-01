@@ -24,6 +24,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import os  # noqa: E402
+
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")  # less fragmentation on 16 GB T4
+
 import torch  # noqa: E402
 
 from common import (  # noqa: E402
@@ -220,6 +224,8 @@ def run(args) -> dict:
             )
         if was_training:
             model.train()
+        if device.type == "cuda":
+            torch.cuda.empty_cache()
         res["_seconds"] = time.time() - t0
         return res
 

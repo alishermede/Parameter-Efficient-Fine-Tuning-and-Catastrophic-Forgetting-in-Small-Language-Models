@@ -120,6 +120,7 @@ def main() -> int:
 
         import train as T
 
+        stage0 = {}
         for method in ("full", "lora", "adapter"):
             out = tmp / "results" / method
             args = T.build_parser().parse_args([
@@ -130,6 +131,7 @@ def main() -> int:
             summary = T.run(args)
             metrics = read_jsonl(out / "dev_metrics.jsonl")
             names = [m["checkpoint"] for m in metrics]
+            stage0[method] = {k: metrics[0][k] for k in ("medmcqa_dev_acc", "casehold_dev_acc", "code_dev_loss")}
             assert names[0] == "stage0" and len(names) == 1 + 3 * 4, names
             assert [s["domain"] for s in summary["stages"]] == ["medmcqa", "casehold", "code"]
             assert all(m["mbpp_dev_pass_at_1"] is not None for m in metrics if m["domain"] in (None, "code"))
@@ -161,6 +163,12 @@ def main() -> int:
             res_metrics = read_jsonl(res_out / "dev_metrics.jsonl")
             assert res_metrics[0]["checkpoint"] == "stage2_casehold_025", res_metrics[0]
             print(f"{method}: resume from stage 1 OK")
+
+        # Stage 0 must be the same model for every method (LoRA B = 0, adapter up-projection = 0)
+        ref = stage0["full"]
+        for m, v in stage0.items():
+            assert v["medmcqa_dev_acc"] == ref["medmcqa_dev_acc"] and abs(v["code_dev_loss"] - ref["code_dev_loss"]) < 1e-4, (m, v, ref)
+        print("stage 0 identical across methods:", ref)
 
         # LR-search style run: stage 1 only, no checkpoints written
         out = tmp / "results" / "lrsearch"

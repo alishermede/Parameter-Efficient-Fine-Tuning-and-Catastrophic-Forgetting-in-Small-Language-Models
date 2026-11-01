@@ -4,7 +4,7 @@
 models:
   primary:
     id: Qwen/Qwen2.5-0.5B
-    revision: main          # replace with the commit hash printed by prepare_data.py / train.py
+    revision: 060db6499f32faf8b98477b0a26969ef7d8b9987   # resolved in the pilot, 2026-11-02
     short: q25-05b
   replication:
     id: Qwen/Qwen3-0.6B-Base
@@ -19,8 +19,8 @@ orders:
 training:
   epochs_per_stage: 2
   max_length: 512
-  per_device_train_batch_size: 4
-  gradient_accumulation_steps: 4      # effective batch size 16
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8      # effective batch size 16 (2 x 8 fits full fine-tuning on a T4)
   optimizer: adamw_torch
   lr_scheduler: linear                # restarted at every stage (new optimiser per stage, all methods)
   warmup_ratio: 0.03
@@ -41,6 +41,7 @@ adapter:
   # Sequential bottleneck adapter after each feed-forward block (Pfeiffer et al., 2021),
   # bottleneck size computed per model so trainable parameters match LoRA.
   non_linearity: relu
+  init_weights: mam_adapter   # up-projection zero at init, like LoRA's B matrix
   match_tolerance: 0.05
 
 lr_grid:

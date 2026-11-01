@@ -60,7 +60,7 @@ def main() -> int:
         for method in ("lora", "adapter"):
             model = build(model_id, args.from_hub)
             target = lora_param_count(model, exp["lora"]["r"], exp["lora"]["targets"])
-            model, info = apply_method(model, method, exp)
+            model, info = apply_method(model, method, exp, check_identity=False)  # meta device: no forward
             rows[method] = info
         lo, ad = rows["lora"], rows["adapter"]
         diff = (ad["trainable"] - lo["trainable"]) / lo["trainable"]

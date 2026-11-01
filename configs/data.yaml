@@ -1,5 +1,5 @@
-# Data sources and sampling. Revisions are pinned after the first prepare_data.py run
-# (it prints and stores the resolved commit hash of every dataset in data/manifest.json).
+# Data sources and sampling. Revisions pinned to the commits resolved in the pilot on 2026-11-02
+# (data/manifest.json -> resolved_revisions).
 
 seed: 2026
 ngram: 13                     # word 13-grams for decontamination (Brown et al., 2020)
@@ -16,25 +16,25 @@ sources:
   medmcqa:
     repo: openlifescienceai/medmcqa
     config: null
-    revision: main
+    revision: 91c6572c454088bf71b679ad90aa8dffcd0d5868
   casehold:
     repo: coastalcph/lex_glue
     config: case_hold
-    revision: main
+    revision: c23fdff1a6bf74e0e1a71cb86f1e781d37da888c
     fallback_repo: casehold/casehold
     fallback_config: all
   codealpaca:
     repo: sahil2801/CodeAlpaca-20k
     config: null
-    revision: main
+    revision: 152bb5e9a29651266b018106053980070a0521a1
   mbpp:
     repo: google-research-datasets/mbpp
     config: full
-    revision: main
+    revision: 4bb6404fdc6cacfda99d4ac4205087b89d32030c
   mmlu:
     repo: cais/mmlu
-    revision: main
+    revision: c30699e8356da336a370243923dbaf21066bb9fe
   gsm8k:
     repo: openai/gsm8k
     config: main
-    revision: main
+    revision: 740312add88f781978c0658806c59bc2815b9866

@@ -67,9 +67,26 @@ def adapter_bottleneck_for(model: nn.Module, target_params: int) -> int:
 # ---------------------------------------------------------------------------
 # Applying a method
 # ---------------------------------------------------------------------------
-def apply_method(model: nn.Module, method: str, cfg: dict):
-    """Returns (model, info). `cfg` is the experiment config (needs `lora` and `adapter`)."""
+@torch.no_grad()
+def _probe_logits(model: nn.Module) -> torch.Tensor:
+    device = next(model.parameters()).device
+    ids = torch.arange(3, 19, device=device).unsqueeze(0) % model.config.vocab_size
+    was_training = model.training
+    model.eval()
+    out = model(input_ids=ids).logits.float().cpu()
+    if was_training:
+        model.train()
+    return out
+
+
+def apply_method(model: nn.Module, method: str, cfg: dict, check_identity: bool = True):
+    """Returns (model, info). `cfg` is the experiment config (needs `lora` and `adapter`).
+
+    With check_identity, verifies that the freshly initialised method leaves the base model's
+    output unchanged, so Stage 0 is the same model for every condition.
+    """
     lcfg = cfg["lora"]
+    before = _probe_logits(model) if check_identity else None
     target = lora_param_count(model, lcfg["r"], lcfg["targets"])
     info = {"method": method, "lora_equivalent_params": target}
 
@@ -93,7 +110,10 @@ def apply_method(model: nn.Module, method: str, cfg: dict):
         b = adapter_bottleneck_for(model, target)
         h = model.config.hidden_size
         # Adapters computes width as int(h // reduction_factor); h/(b+0.5) avoids float round-down.
-        acfg = SeqBnConfig(reduction_factor=h / (b + 0.5), non_linearity=cfg["adapter"]["non_linearity"])
+        # init_weights="mam_adapter": down projection Kaiming-uniform, up projection zero - the same
+        # scheme PEFT uses for LoRA (A Kaiming, B zero), so both start as the unchanged base model.
+        acfg = SeqBnConfig(reduction_factor=h / (b + 0.5), non_linearity=cfg["adapter"]["non_linearity"],
+                           init_weights=cfg["adapter"].get("init_weights", "mam_adapter"))
         adapters.init(model)
         model.add_adapter("domain", config=acfg)
         model.train_adapter("domain")
@@ -103,6 +123,11 @@ def apply_method(model: nn.Module, method: str, cfg: dict):
     else:
         raise ValueError(f"unknown method {method!r}")
 
+    if check_identity:
+        diff = (_probe_logits(model) - before).abs().max().item()
+        info["init_max_logit_change"] = diff
+        if diff > 1e-3:
+            raise AssertionError(f"{method}: initialised model differs from the base model (max |dlogit| {diff:.4g})")
     info.update(count_params(model))
     if method in ("lora", "adapter"):
         rel = abs(info["trainable"] - target) / target
