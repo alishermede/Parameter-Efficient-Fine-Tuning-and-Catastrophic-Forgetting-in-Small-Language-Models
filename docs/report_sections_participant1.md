@@ -41,7 +41,7 @@ Table 4. Final experimental setup.
 | Precision and hardware | fp16 mixed precision with fp32 master weights; gradient checkpointing for all methods; one NVIDIA T4 16 GB (Kaggle) |
 | Software | Python 3.13, PyTorch 2.11.0 (CUDA 12.8), transformers 4.57.6, peft 0.21.2, adapters 1.3.0, datasets 4.8.5, accelerate 1.12.0, lm-evaluation-harness 0.4.13 |
 | Seeds | 1, 2, 3 (primary); 1 (replication, reversed order); 0 (learning-rate search) |
-| Run time | [fill: mean training time per run per method, `run_summary.json` → train_seconds] |
+| Run time (training only, 3 stages, mean ± SD over 3 seeds) | Full 29.8 ± 0.2 min; LoRA 38.6 ± 0.5 min; adapter 25.1 ± 0.2 min. Peak GPU memory: full 9.84 GiB; LoRA 4.07 GiB; adapter 4.07 GiB (`results/raw/*/run_summary.json`) |
 
 ---
 
