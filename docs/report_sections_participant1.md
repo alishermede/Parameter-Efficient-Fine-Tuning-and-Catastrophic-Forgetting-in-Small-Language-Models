@@ -7,11 +7,11 @@ runs; each one names the file it is read from, so every number stays traceable.
 
 ## 3. Deviations from the Frozen Protocol
 
-The final experiment follows the design of Assignment 3 (Sections 1–6). Seven decisions were changed or fixed before the final runs and were declared in the Protocol Freeze form uploaded on [fill: date and time of the Moodle upload]; they are listed in Table 3 and in `docs/deviations.md`.
+The final experiment follows the design of Assignment 3 (Sections 1–6). Seven decisions were changed or fixed before the final runs and were declared in the Protocol Freeze form uploaded on 2 November 2026, 03:38 (UTC+5); they are listed in Table 3 and in `docs/deviations.md`.
 
 First, the initial implementation reported in Assignment 3 (Part 7) did not match the planned design: it used an instruction-tuned 1.5B model, adapted it to code and then to GSM8K, and trained in bf16. The final pipeline uses the planned base models and domain order, because instruction-tuned models were excluded by our selection criteria and training on GSM8K would contaminate one of the two retention benchmarks. Second, the test benchmarks are evaluated at the end of each stage and at the matched checkpoint rather than at every quarter of a stage, because the full schedule would have needed about three times our GPU budget. Third, the repeated-measures analysis over three seeds was replaced by an item-level paired bootstrap, since tests over three runs cannot reach significance. Fourth, MMLU forgetting was fixed as the single primary metric, as Assignment 4 requires.
 
-[fill: any deviation that happens during the final runs — for example a resumed or incomplete run — or state "No deviations occurred after the freeze."]
+No deviations occurred after the freeze: all nine primary runs were started after the upload, used the frozen configuration (commit f1b58e6) and completed without interruption.
 
 Table 3. Deviations from Assignment 3 and the frozen protocol (summary of `docs/deviations.md`).
 

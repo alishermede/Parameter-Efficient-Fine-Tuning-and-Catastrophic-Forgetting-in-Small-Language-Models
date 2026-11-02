@@ -4,7 +4,7 @@ Every change relative to Assignment 3 or to the Protocol Freeze form is logged h
 date and reason. Changes dated before the freeze upload were decided before any final result
 was seen; they are listed so the report can show how the final setup differs from A3.
 
-Freeze form uploaded to Moodle: [fill date and time]
+Freeze form uploaded to Moodle: 2 November 2026, 03:38 (UTC+5). The nine primary runs started after the upload (commit f1b58e6).
 
 | # | Date | What changed | From (A3 / freeze) | To (final) | Reason | Effect on conclusions |
 |---|---|---|---|---|---|---|
@@ -16,4 +16,4 @@ Freeze form uploaded to Moodle: [fill date and time]
 | 6 | before freeze | Effective batch size (not fixed in A3) | — (pilot used 4) | 16 (2 per device × 8 accumulation), 250 optimiser steps per stage | Fits full fine-tuning in 16 GB T4 memory; identical for all methods | None |
 | 7 | before freeze | Profiling hardware | A3 Part 8 mentioned A100 / RTX 4090 | One NVIDIA T4 (Kaggle) for all runs | Matches A3 Sections 2 and 6; one GPU type keeps time and memory comparable | None |
 | 8 | before freeze (pilot, 2026-11-02) | Adapter initialisation | Adapters library default (`bert`: both projections random) | `mam_adapter`: up-projection zero, down-projection Kaiming-uniform, as LoRA | The pilot showed the default changes the model before training (MedMCQA-dev 0.12 vs 0.30, MBPP 0.00 vs 0.24 at Stage 0); with zero up-projection all methods start from the identical base model (checked at run time) | Removes a confound; no reported run used the old initialisation |
-| 9 | | [later deviations, if any — e.g. a run not completed, a resumed run] | | | | |
+| 9 | | [later deviations, if any — replication or reversed-order runs] | | | | |
