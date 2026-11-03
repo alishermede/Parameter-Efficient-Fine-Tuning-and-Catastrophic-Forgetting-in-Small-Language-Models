@@ -87,7 +87,12 @@ python src/train.py --method <full|lora|adapter> --seed <1|2|3> --model primary 
 python src/pull_results.py --repos <hf-user1>/rmt-peft-ckpts <hf-user2>/rmt-peft-ckpts <hf-user3>/rmt-peft-ckpts
 ```
 
-**6. Test-set evaluation and statistics** — see `eval/README.md` (Participant 2).
+**6. Tables and figures.** From the committed logs and per-item test outputs:
+```bash
+python src/training_report.py   # training logs: efficiency, dev trajectories, LR search, data pipeline (fig4-6)
+python src/stats.py             # test results: main table, pairwise tests, hypotheses
+python src/figures.py           # fig1-3
+```
 
 If a Kaggle session stops mid-run, continue from the last completed stage (the run reseeds identically at every stage start):
 ```bash
