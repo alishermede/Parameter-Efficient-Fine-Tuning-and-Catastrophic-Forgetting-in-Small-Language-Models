@@ -1,0 +1,9 @@
+q25-05b_full_CLM_s1 stage1_code_100
+q25-05b_full_CLM_s1 stage2_casehold_100
+q25-05b_full_CLM_s1 stage3_medmcqa_100
+q25-05b_lora_CLM_s1 stage1_code_100
+q25-05b_lora_CLM_s1 stage2_casehold_100
+q25-05b_lora_CLM_s1 stage3_medmcqa_100
+q25-05b_adapter_CLM_s1 stage1_code_100
+q25-05b_adapter_CLM_s1 stage2_casehold_100
+q25-05b_adapter_CLM_s1 stage3_medmcqa_100

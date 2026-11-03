@@ -12,3 +12,7 @@ huggingface_hub==0.36.2
 safetensors==0.8.0
 tokenizers==0.22.2
 PyYAML==6.0.3
+# analysis (src/stats.py, src/figures.py)
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2

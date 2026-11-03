@@ -1,0 +1,157 @@
+{
+  "scores": {
+    "mmlu_primary": {
+      "n": 1260,
+      "score": 0.4595238095238095
+    },
+    "mmlu_overlap": {
+      "n": 450,
+      "score": 0.4622222222222222
+    },
+    "medmcqa": {
+      "n": 500,
+      "score": 0.374
+    },
+    "casehold": {
+      "n": 500,
+      "score": 0.27
+    },
+    "gsm8k": {
+      "n": 500,
+      "score": 0.31,
+      "score_strict": 0.152
+    },
+    "mbpp": {
+      "n": 500,
+      "score": 0.276
+    }
+  },
+  "seconds": {
+    "mmlu": 442.8,
+    "medmcqa": 27.1,
+    "casehold": 179.6,
+    "gsm8k": 3574.0,
+    "mbpp": 979.7
+  },
+  "run_id": "q25-05b_full_MLC_s2",
+  "source_run_id": "q25-05b_full_MLC_s2",
+  "checkpoint": "stage1_medmcqa_100",
+  "hub_repo": "alishermede/rmt-peft-ckpts",
+  "checkpoint_meta": {
+    "method": "full",
+    "base_model": "Qwen/Qwen2.5-0.5B",
+    "base_revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "run_id": "q25-05b_full_MLC_s2",
+    "seed": 2,
+    "lr": 2e-05,
+    "order": [
+      "medmcqa",
+      "casehold",
+      "code"
+    ],
+    "stage": 1,
+    "domain": "medmcqa",
+    "step": 250,
+    "fraction": 1.0
+  },
+  "dtype": "float16",
+  "pilot": null,
+  "eval_config": {
+    "harness": "lm-eval==0.4.13",
+    "hub_repo": "alishermede/rmt-peft-ckpts",
+    "dtype": "float16",
+    "batch_size": "auto:4",
+    "max_length": 4096,
+    "max_gen_toks": 256,
+    "seeds": {
+      "random": 0,
+      "numpy": 1234,
+      "torch": 1234,
+      "fewshot": 1234
+    },
+    "groups": {
+      "mmlu": {
+        "num_fewshot": 5,
+        "subsets": [
+          "mmlu_primary",
+          "mmlu_overlap"
+        ]
+      },
+      "gsm8k": {
+        "num_fewshot": 5,
+        "tasks": [
+          "gsm8k"
+        ],
+        "subsets": [
+          "gsm8k"
+        ]
+      },
+      "medmcqa": {
+        "num_fewshot": 0,
+        "tasks": [
+          "medmcqa"
+        ],
+        "subsets": [
+          "medmcqa_test"
+        ]
+      },
+      "casehold": {
+        "num_fewshot": 0,
+        "tasks": [
+          "casehold_test"
+        ],
+        "subsets": [
+          "casehold_test"
+        ]
+      },
+      "mbpp": {
+        "num_fewshot": 3,
+        "tasks": [
+          "mbpp"
+        ],
+        "subsets": [
+          "mbpp_test"
+        ]
+      }
+    }
+  },
+  "sanity": {
+    "logits_finite": true,
+    "probe_next_token": " Paris"
+  },
+  "load_seconds": 13.8,
+  "total_seconds": 5217.0,
+  "subset_sha256": {
+    "test_subsets/mmlu_primary.json": "6e387f74e96dcade9a5beea339dfc86943b71ed695a9e491f9440f67431541d9",
+    "test_subsets/mmlu_overlap.json": "3f7fbc4e65584b9a46f4f07b7fc7fde86475997d52b64a655eb77e65668ead1d",
+    "test_subsets/gsm8k.json": "2b8b7e11facaa11a89068cd5ece2dbca1edb0a83ffa44184beb1f2e95c62c8b8",
+    "test_subsets/medmcqa_test.json": "367aa387559c1d9d115ce31b6f5f883c40cc14599bf6d4ff2575630dbcaffadc",
+    "test_subsets/casehold_test.json": "9118e63570c12a14e52eca8375611b1d317fbf5ae2a0b333d190666b9a54b670",
+    "test_subsets/mbpp_test.json": "d62b8b1b6a6e9a589d8ec6907711d69863b74a5ac151712090e3da8f49d2c17b"
+  },
+  "casehold_file_sha256": "285f908f91537967a8af0455155bb3895d3fc1a2bc39025954a9b54690e022a3",
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.21.2",
+    "adapters": "1.3.0",
+    "datasets": "4.8.5",
+    "accelerate": "1.12.0",
+    "lm_eval": "0.4.13",
+    "gpu": "Tesla T4",
+    "cuda": "12.8",
+    "gpu_count_visible": 1,
+    "git_commit": "cc6bf46b5ef824452e0f8550b8ef412ef6d4f0a8"
+  },
+  "argv": [
+    "src/eval.py",
+    "--jobs",
+    "results/eval/jobs/participant2_gpu0.txt",
+    "--hub_repo",
+    "alishermede/rmt-peft-ckpts",
+    "--keep_going"
+  ],
+  "finished_utc": "2026-11-02T21:03:40Z"
+}

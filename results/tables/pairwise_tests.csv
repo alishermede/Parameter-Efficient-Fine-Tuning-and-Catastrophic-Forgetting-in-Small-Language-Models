@@ -1,0 +1,5 @@
+metric,comparison,method_a,method_b,checkpoint,F_a_mean,F_b_mean,diff_F_pp,ci_low,ci_high,p_boot,n_items,n_boot,relative_reduction_pct,diff_seed1,diff_seed2,diff_seed3,same_sign_all_seeds,t_stat_exploratory,t_p_exploratory,family,p_holm,significant
+mmlu_primary,lora - full,lora,full,stage3_code_100,3.439153,13.227513,-9.788360,-12.116402,-7.433862,0.000200,1260,10000,74.000000,-10.952381,-8.730159,-9.682540,1,-15.206906,0.004296,primary (H1),0.000200,1
+gsm8k,lora - full,lora,full,stage3_code_100,2.333333,17.066667,-14.733333,-17.933333,-11.466667,0.000200,500,10000,86.328125,-13.000000,-15.200000,-16.000000,1,-16.426801,0.003685,primary (H1),0.000200,1
+gsm8k_strict,lora - full,lora,full,stage3_code_100,19.400000,33.600000,-14.200000,-16.666667,-11.800000,0.000200,500,10000,42.261905,-14.800000,-13.000000,-14.800000,1,-23.666667,0.001781,secondary (exploratory),0.000200,1
+mmlu_overlap,lora - full,lora,full,stage3_code_100,3.925926,10.370370,-6.444444,-10.074074,-2.888889,0.000800,450,10000,62.142857,-4.444444,-7.333333,-7.555556,1,-6.431225,0.023335,secondary (exploratory),0.000800,1

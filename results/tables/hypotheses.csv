@@ -1,0 +1,2 @@
+hypothesis,evidence,result_in_numbers,criteria_met,verdict
+H1,pairwise_tests.csv; Fig. 1,"lora-FFT mmlu_primary: ΔF3 = -9.79 pp [-12.12, -7.43], p_Holm = 0.0002, same sign in all seeds: yes | lora-FFT gsm8k: ΔF3 = -14.73 pp [-17.93, -11.47], p_Holm = 0.0002, same sign in all seeds: yes",lora/mmlu_primary: yes; lora/gsm8k: yes,PRELIMINARY (lora only): Partly supported
