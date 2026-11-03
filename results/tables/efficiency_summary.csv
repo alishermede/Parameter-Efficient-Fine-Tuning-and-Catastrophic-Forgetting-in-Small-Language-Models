@@ -1,0 +1,4 @@
+method,trainable_params,trainable_pct,n_runs,train_min_mean,train_min_sd,sec_per_step_mean,sec_per_step_sd,peak_gpu_gib,time_vs_full,memory_vs_full
+full,494032768,100,3,29.8183,0.162848,2.38547,0.0130278,9.844,1,1
+lora,8798208,1.74973,3,38.6006,0.49316,3.08804,0.0394528,4.068,1.29452,0.413247
+adapter,8800032,1.75009,3,25.0706,0.184016,2.00564,0.0147213,4.072,0.840777,0.413653

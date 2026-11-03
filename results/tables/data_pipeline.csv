@@ -1,0 +1,4 @@
+domain,pool_raw,removed_duplicates,removed_test_overlap,removed_dev_overlap,removed_pct,pool_clean,train,dev
+medmcqa,182822,73,155,528,0.413517,181866,2000,200
+casehold,45000,2,13421,4123,38.9911,27254,2000,200
+code,20016,0,106,91,0.984213,19619,2000,200
