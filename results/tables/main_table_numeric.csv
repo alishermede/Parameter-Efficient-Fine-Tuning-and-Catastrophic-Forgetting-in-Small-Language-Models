@@ -1,0 +1,4 @@
+condition,trainable_pct,medmcqa_score_mean,casehold_score_mean,mbpp_score_mean,mmlu_primary_score_mean,mmlu_primary_forgetting_mean,gsm8k_score_mean,gsm8k_forgetting_mean,trainable,medmcqa_score_sd,casehold_score_sd,mbpp_score_sd,mmlu_primary_score_sd,mmlu_primary_forgetting_sd,gsm8k_score_sd,gsm8k_forgetting_sd
+base,0.0000,36.6000,31.6000,30.2000,49.9206,0.0000,35.0000,0.0000,,,,,,,,
+full,100.0000,31.0000,71.1333,23.8000,36.6931,13.2275,17.9333,17.0667,494032768.0000,0.3464,2.3438,0.5292,0.7113,0.7113,0.8327,0.8327
+lora,1.7497,37.3333,69.6667,30.2000,46.4815,3.4392,32.6667,2.3333,8798208.0000,0.7024,0.6429,0.8000,0.5957,0.5957,1.3317,1.3317

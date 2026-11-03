@@ -1,0 +1,500 @@
+{"correct": 0, "doc_id": 777, "gold": "A", "item_id": "medmcqa-9631d6de-2f89-43ce-a707-508f76977a7f", "loglik": [-4.4219, -0.3108, -3.9199, -1.4512], "pred": "B", "subject": "Anaesthesia"}
+{"correct": 1, "doc_id": 822, "gold": "C", "item_id": "medmcqa-dea9021b-e874-4096-9195-ac758f2de19d", "loglik": [-3.4023, -5.5742, -0.1686, -2.1523], "pred": "C", "subject": "Anaesthesia"}
+{"correct": 0, "doc_id": 1461, "gold": "C", "item_id": "medmcqa-7e38cd45-2858-4483-b448-d461bde268ee", "loglik": [-0.7847, -1.207, -2.7695, -1.7227], "pred": "A", "subject": "Anaesthesia"}
+{"correct": 0, "doc_id": 3521, "gold": "D", "item_id": "medmcqa-e0f9e4af-3c3f-49d3-a19a-f8b884951de6", "loglik": [-1.6328, -2.0703, -0.6333, -1.9141], "pred": "C", "subject": "Anaesthesia"}
+{"correct": 0, "doc_id": 193, "gold": "B", "item_id": "medmcqa-4df0486d-1aba-4df0-9a1f-fd86bb8acc9a", "loglik": [-0.6973, -1.9785, -1.541, -1.916], "pred": "A", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 394, "gold": "A", "item_id": "medmcqa-1c8618e4-c3cc-4048-8214-8c3098ba12ad", "loglik": [-1.7549, -1.3018, -0.6611, -3.2695], "pred": "C", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 489, "gold": "A", "item_id": "medmcqa-7060bcf3-fde4-41e3-ad46-260857a92b46", "loglik": [-1.3105, -1.6543, -1.248, -1.3887], "pred": "C", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 820, "gold": "A", "item_id": "medmcqa-e60f51ab-3827-4ddd-9649-a6d601b9682c", "loglik": [-1.3096, -1.0908, -1.1689, -2.4961], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 1143, "gold": "C", "item_id": "medmcqa-433889ad-6b7a-4b52-b45d-2e2379f81d5e", "loglik": [-1.3008, -1.0352, -1.8477, -1.5508], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 1152, "gold": "B", "item_id": "medmcqa-e9be346c-4d68-4290-9ca4-5ea76f8d2280", "loglik": [-1.0693, -2.2891, -1.5693, -1.0693], "pred": "A", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 1259, "gold": "A", "item_id": "medmcqa-eacfff8d-51f4-440b-b560-43c3a7240da5", "loglik": [-1.0791, -1.8291, -1.251, -1.5479], "pred": "A", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 1306, "gold": "D", "item_id": "medmcqa-498c56bd-94f3-48de-b981-5c6400ee5700", "loglik": [-3.0703, -2.1797, -2.1641, -0.3213], "pred": "D", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 1354, "gold": "B", "item_id": "medmcqa-a1279d69-0943-4b0f-93af-6c02cd5e2bf1", "loglik": [-1.9502, -2.3242, -0.9658, -0.9814], "pred": "C", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 1510, "gold": "A", "item_id": "medmcqa-650d801f-749f-480f-bad9-399be17408a5", "loglik": [-3.209, -0.6621, -3.7871, -0.8652], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 1862, "gold": "B", "item_id": "medmcqa-744e4dce-b8f1-447f-a964-bea1bbe98edf", "loglik": [-0.9473, -3.1504, -3.4941, -0.6191], "pred": "D", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 1881, "gold": "A", "item_id": "medmcqa-46872392-e33f-464f-a194-93ea23830da9", "loglik": [-0.5317, -2.0156, -1.8125, -2.1875], "pred": "A", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 2032, "gold": "A", "item_id": "medmcqa-c48fcdd2-948f-41e7-a457-56f42646cc60", "loglik": [-1.2686, -1.7373, -1.1436, -1.5029], "pred": "C", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 2069, "gold": "B", "item_id": "medmcqa-7f0dce8f-c95a-4776-aef1-fe8c6d257fb0", "loglik": [-3.0703, -0.5869, -1.165, -2.4609], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 2187, "gold": "A", "item_id": "medmcqa-c0bb09db-0721-44e8-85a9-9adefcf98f25", "loglik": [-1.4678, -4.5156, -4.2969, -0.2959], "pred": "D", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 2289, "gold": "B", "item_id": "medmcqa-2b050ce8-53bf-4a3b-a4bd-fe1991b726c9", "loglik": [-1.8652, -0.8496, -2.7715, -1.0371], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 2898, "gold": "A", "item_id": "medmcqa-ef116da3-e330-4439-a183-1f19a7ea3fcd", "loglik": [-1.6523, -1.4648, -2.2773, -0.7466], "pred": "D", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 2906, "gold": "A", "item_id": "medmcqa-ace77d98-571a-4ba0-b073-881b622dcffa", "loglik": [-0.959, -1.5527, -1.4121, -1.8652], "pred": "A", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 2982, "gold": "D", "item_id": "medmcqa-e356b193-bb0c-4a38-9d5b-e14317c5ec09", "loglik": [-2.4062, -1.6709, -1.4365, -0.7339], "pred": "D", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3047, "gold": "D", "item_id": "medmcqa-ed8cb5ce-10b7-4f7f-82b9-78d81ca404e0", "loglik": [-0.3435, -3.8438, -3.4531, -1.4531], "pred": "A", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3051, "gold": "A", "item_id": "medmcqa-ae005492-038e-49ae-a154-609fc852b6f0", "loglik": [-1.3486, -1.3799, -1.9424, -1.0674], "pred": "D", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3360, "gold": "D", "item_id": "medmcqa-292be6a1-f5da-4d67-8ae1-ae4d05a5f4a4", "loglik": [-0.8486, -1.7393, -1.0205, -3.3496], "pred": "A", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 3471, "gold": "D", "item_id": "medmcqa-7cc77f7a-78ba-4980-a4f8-cc1ae7ffb6fe", "loglik": [-1.9941, -6.2578, -2.1816, -0.2905], "pred": "D", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3508, "gold": "D", "item_id": "medmcqa-a497ae07-aaf0-4410-a034-665f087f1d83", "loglik": [-1.501, -1.001, -1.251, -2.0957], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3693, "gold": "C", "item_id": "medmcqa-23927949-66b8-412b-86ec-8e174fe4ddaf", "loglik": [-0.8345, -1.6465, -1.5527, -1.8496], "pred": "A", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3796, "gold": "A", "item_id": "medmcqa-12f747f6-e1e0-4850-864a-1af7b156c14f", "loglik": [-1.9404, -0.2844, -3.3945, -2.6758], "pred": "B", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 3846, "gold": "C", "item_id": "medmcqa-47ef5a0a-7625-49dd-bda3-819f6df9799e", "loglik": [-1.4639, -2.1367, -1.1357, -1.1201], "pred": "D", "subject": "Anatomy"}
+{"correct": 0, "doc_id": 4131, "gold": "C", "item_id": "medmcqa-f955fff3-f4ec-41be-a119-a43e2024120e", "loglik": [-1.1064, -1.0283, -1.7783, -1.9658], "pred": "B", "subject": "Anatomy"}
+{"correct": 1, "doc_id": 30, "gold": "A", "item_id": "medmcqa-3624dceb-9318-4aa7-add1-b4c2fbac3065", "loglik": [-0.1449, -2.6133, -5.9727, -2.8633], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 71, "gold": "C", "item_id": "medmcqa-d1d16eda-c34e-4492-bee4-1b8c4246daf3", "loglik": [-2.5273, -1.1836, -2.8398, -0.5894], "pred": "D", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 301, "gold": "C", "item_id": "medmcqa-4bfec2de-e6e7-41c6-bbe9-3dc864f9d719", "loglik": [-0.1649, -5.4609, -3.4141, -2.1641], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 306, "gold": "B", "item_id": "medmcqa-7a4da866-2f41-4510-aa28-0dabdf6d0d38", "loglik": [-2.6641, -0.9302, -0.8989, -2.0547], "pred": "C", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 1198, "gold": "C", "item_id": "medmcqa-64fb619d-cfcf-450f-a317-cb760dca53e3", "loglik": [-0.6084, -1.374, -2.0137, -2.8418], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 1348, "gold": "B", "item_id": "medmcqa-08f3bf0c-adda-4d6b-9a65-04885defc090", "loglik": [-0.251, -2.3438, -4.0469, -2.2344], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 1415, "gold": "C", "item_id": "medmcqa-83e527c6-65cd-43bc-98a9-cbab53168a78", "loglik": [-1.7549, -0.9111, -1.5361, -1.5674], "pred": "B", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 1613, "gold": "D", "item_id": "medmcqa-81f36a50-554d-4c45-a8e2-8df9dce0ca2f", "loglik": [-3.1953, -0.1011, -3.8359, -3.4141], "pred": "B", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 1689, "gold": "A", "item_id": "medmcqa-2842876c-766c-4b9b-a630-8233d82da426", "loglik": [-0.9253, -0.5815, -3.5195, -4.2383], "pred": "B", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2099, "gold": "D", "item_id": "medmcqa-eda8d5c0-449d-4c34-ad66-8a269fcdcb39", "loglik": [-0.1234, -3.4512, -4.9062, -2.5762], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2102, "gold": "C", "item_id": "medmcqa-1cabf1e4-1586-4f15-98d8-001bdccbd3c2", "loglik": [-4.9023, -0.4495, -2.4336, -1.3242], "pred": "B", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2235, "gold": "A", "item_id": "medmcqa-876ee705-7f99-4e03-bbf1-77059c2971c0", "loglik": [-1.1992, -0.4333, -5.3398, -3.1367], "pred": "B", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2267, "gold": "D", "item_id": "medmcqa-cba8ecbe-b35e-4974-bb5b-5a109d0b160d", "loglik": [-5.3047, -6.4297, -0.0087, -6.8047], "pred": "C", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2484, "gold": "C", "item_id": "medmcqa-3af11fb3-6d3b-4542-9de0-5f4decd77160", "loglik": [-0.8154, -2.4883, -1.0186, -2.1914], "pred": "A", "subject": "Biochemistry"}
+{"correct": 1, "doc_id": 2576, "gold": "C", "item_id": "medmcqa-bdf95c69-99f7-4884-b014-53ec47ef3130", "loglik": [-4.9688, -1.5176, -0.2671, -4.8438], "pred": "C", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2648, "gold": "A", "item_id": "medmcqa-0ef0297d-91cb-4320-9d3e-6d04ae3e9c07", "loglik": [-1.1094, -2.8125, -0.6558, -2.4375], "pred": "C", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 2798, "gold": "A", "item_id": "medmcqa-a4dc69af-5979-42bd-aa75-154aad4d8565", "loglik": [-4.1562, -2.5625, -0.688, -0.9067], "pred": "C", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 3095, "gold": "C", "item_id": "medmcqa-31a240fd-6563-4450-a2c1-9dd108c57a84", "loglik": [-3.6992, -3.5742, -1.293, -0.4019], "pred": "D", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 3367, "gold": "C", "item_id": "medmcqa-a3cbc052-9644-4a98-85de-c4f18d88b9c7", "loglik": [-1.4014, -0.6357, -1.8076, -2.8223], "pred": "B", "subject": "Biochemistry"}
+{"correct": 1, "doc_id": 3430, "gold": "A", "item_id": "medmcqa-9bf68fe9-789d-4021-aaf4-d39fa49b302c", "loglik": [-0.0566, -4.3672, -3.791, -3.9629], "pred": "A", "subject": "Biochemistry"}
+{"correct": 0, "doc_id": 4153, "gold": "C", "item_id": "medmcqa-1738bd76-9a60-42d8-8a35-90cb6542d4a5", "loglik": [-0.2529, -3.6738, -1.8779, -3.1113], "pred": "A", "subject": "Biochemistry"}
+{"correct": 1, "doc_id": 31, "gold": "B", "item_id": "medmcqa-7b81cd07-3765-4f50-8b28-a88576f4223e", "loglik": [-1.9727, -0.3167, -4.2383, -2.1445], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 66, "gold": "C", "item_id": "medmcqa-069b7516-54c4-4e5d-acf7-a7c92fdd2a01", "loglik": [-1.8623, -2.7539, -0.3625, -2.4727], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 85, "gold": "C", "item_id": "medmcqa-4710c6bb-67b6-47ab-85e1-7cac22bd35cf", "loglik": [-5.6406, -3.9844, -0.0308, -4.8281], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 108, "gold": "C", "item_id": "medmcqa-18796d06-7762-4185-b0ca-c1b527502073", "loglik": [-1.3574, -2.1543, -1.8418, -0.7944], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 129, "gold": "B", "item_id": "medmcqa-631db9fb-f930-40f3-a867-273597e5c7f9", "loglik": [-1.0381, -1.8975, -1.7725, -1.1318], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 165, "gold": "C", "item_id": "medmcqa-58d38c9d-0440-4077-a581-e86b63ec4ecd", "loglik": [-4.4492, -1.2139, -0.386, -4.4805], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 192, "gold": "B", "item_id": "medmcqa-11efa366-1d2d-48a8-a247-a362a0447140", "loglik": [-3.7871, -1.334, -0.3652, -3.9277], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 196, "gold": "A", "item_id": "medmcqa-c5b472d1-468e-437e-97fc-9b1c2411af53", "loglik": [-0.3352, -1.4287, -7.1016, -3.1328], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 199, "gold": "A", "item_id": "medmcqa-e1eb342e-fe1e-49b1-a9d7-f8400b419aa6", "loglik": [-1.5684, -2.2715, -0.9585, -1.1934], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 211, "gold": "A", "item_id": "medmcqa-00667233-3ef5-4759-bac2-850f41c6cdfc", "loglik": [-2.0605, -0.7476, -1.1221, -2.623], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 232, "gold": "D", "item_id": "medmcqa-9663a6e9-55d1-4a7e-8af9-556a6478688d", "loglik": [-1.6279, -2.877, -0.4089, -2.502], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 243, "gold": "C", "item_id": "medmcqa-58d83508-8ad5-4137-a215-d6b084f49e3c", "loglik": [-1.3447, -0.9858, -1.376, -2.1895], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 308, "gold": "A", "item_id": "medmcqa-7ddf1f3b-5c7c-4f2d-b208-f01ea72e1a70", "loglik": [-0.0335, -5.8477, -4.0039, -4.5195], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 350, "gold": "A", "item_id": "medmcqa-991ff4a7-4adc-4136-854d-b6c007d5d1be", "loglik": [-0.3398, -2.6211, -2.0898, -2.4492], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 376, "gold": "B", "item_id": "medmcqa-48d70d58-19bb-4648-b72b-d49e9cbb0147", "loglik": [-0.3296, -2.2676, -2.0801, -2.9863], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 389, "gold": "D", "item_id": "medmcqa-d053ff7a-d056-4da2-b124-68610654796f", "loglik": [-3.4727, -2.6289, -2.0195, -0.2703], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 426, "gold": "A", "item_id": "medmcqa-a8be5273-87e4-42d6-bdd2-e3ce0ba892c1", "loglik": [-1.1885, -2.25, -2.6719, -0.6567], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 428, "gold": "A", "item_id": "medmcqa-6ccd520c-4355-48c5-8635-66b64dd157f1", "loglik": [-2.1621, -1.1787, -0.585, -3.9746], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 499, "gold": "B", "item_id": "medmcqa-0209aeca-8c86-4341-afbf-d702a7f4f47c", "loglik": [-1.1533, -1.4814, -1.3408, -1.6377], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 544, "gold": "A", "item_id": "medmcqa-b81486a0-3a2d-447b-b740-7d086488d10c", "loglik": [-0.4802, -1.7617, -1.6367, -4.2773], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 592, "gold": "B", "item_id": "medmcqa-3b514c9e-965c-463a-b141-9dcecd91c957", "loglik": [-1.0, -0.9224, -1.7188, -2.9219], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 610, "gold": "B", "item_id": "medmcqa-28b161b6-372b-497e-828b-1321193679c7", "loglik": [-0.077, -2.9512, -4.7031, -4.4219], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 627, "gold": "B", "item_id": "medmcqa-d8458f0b-fe46-465b-9f9d-85ff2379f6e1", "loglik": [-0.3137, -1.6885, -3.6426, -2.877], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 631, "gold": "C", "item_id": "medmcqa-91670015-d49a-46d1-9ca2-925f832c300e", "loglik": [-5.3047, -1.8975, -2.4902, -0.2722], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 635, "gold": "A", "item_id": "medmcqa-f3a56182-648b-4ca9-9e60-6ef497b1b54f", "loglik": [-1.2012, -1.7637, -2.7949, -0.7637], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 649, "gold": "B", "item_id": "medmcqa-dcefed9b-19be-4331-ac01-6876e7d194f4", "loglik": [-1.2246, -4.0547, -0.3811, -5.3203], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 747, "gold": "C", "item_id": "medmcqa-762c8e46-a58b-4a23-b03d-f5d2055a3fac", "loglik": [-1.1865, -2.0156, -1.2959, -1.249], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 761, "gold": "C", "item_id": "medmcqa-a67a3de5-fa39-4d47-b9f1-ca2a42aa8d70", "loglik": [-1.6729, -1.6572, -1.376, -1.001], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 763, "gold": "C", "item_id": "medmcqa-562c151c-3bd4-4b3d-8bb1-118503304818", "loglik": [-5.4141, -0.6187, -1.2588, -1.7588], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 804, "gold": "A", "item_id": "medmcqa-ee350111-02ad-4142-8dc2-0be524836a16", "loglik": [-0.3728, -2.8262, -3.4355, -1.5293], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 868, "gold": "C", "item_id": "medmcqa-2556604f-14dc-456a-aafb-41416638fd16", "loglik": [-1.6729, -1.4854, -0.9229, -1.6729], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 872, "gold": "A", "item_id": "medmcqa-f9bbeea9-85b5-48b9-ad6b-ed9466581c8a", "loglik": [-0.2773, -1.9961, -4.1055, -2.418], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 905, "gold": "D", "item_id": "medmcqa-d061fd99-52bd-470b-a2c6-09b66b66cc8b", "loglik": [-0.9873, -2.2539, -0.8467, -2.3789], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 960, "gold": "B", "item_id": "medmcqa-3b1d8bb2-5d19-4dc0-89b4-a8f94ac0e282", "loglik": [-0.6221, -1.9033, -1.9033, -1.8252], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 972, "gold": "D", "item_id": "medmcqa-04c8a800-af32-40fb-b60e-45d64d189679", "loglik": [-1.2266, -1.0547, -1.5078, -2.0234], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 997, "gold": "A", "item_id": "medmcqa-49590250-c847-4276-9d56-c4b6a8cca048", "loglik": [-2.1914, -4.1758, -3.957, -0.1593], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 1026, "gold": "C", "item_id": "medmcqa-0984768a-39e6-4291-bc0d-fd61da9d2829", "loglik": [-1.1768, -2.3945, -0.9736, -1.5049], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 1045, "gold": "A", "item_id": "medmcqa-56f96be4-b9c5-4ddf-bb48-1f01e541184f", "loglik": [-1.7344, -2.2812, -0.3909, -3.1094], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 1053, "gold": "C", "item_id": "medmcqa-4a6df62e-15c7-471f-8dc7-d13ff49f0502", "loglik": [-1.6885, -0.6104, -1.3447, -4.625], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1085, "gold": "B", "item_id": "medmcqa-5c1480fc-941a-40a6-895b-537be91bcadb", "loglik": [-1.7803, -0.7954, -2.1699, -1.3271], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 1089, "gold": "B", "item_id": "medmcqa-fedcc613-e577-40ff-a801-5d57fba1548e", "loglik": [-0.4951, -2.291, -2.166, -1.7607], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1093, "gold": "D", "item_id": "medmcqa-8abb6456-0bb3-4f01-83e4-138e341b3cd1", "loglik": [-1.3066, -2.3066, -0.6816, -2.1035], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1095, "gold": "A", "item_id": "medmcqa-01024fa5-94ba-4fa4-b322-6e9733f3553f", "loglik": [-1.1719, -1.3906, -1.8438, -1.2656], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1105, "gold": "A", "item_id": "medmcqa-e8e4c8af-c2cb-4b44-8865-ff068bdbd6b5", "loglik": [-1.7451, -0.2605, -3.1973, -4.3086], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1118, "gold": "A", "item_id": "medmcqa-22c33272-9d2f-4f91-9999-74e84b057914", "loglik": [-0.6084, -1.6553, -1.5303, -3.0469], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1124, "gold": "C", "item_id": "medmcqa-22384629-7dc2-4890-a69e-42dc71fbccfe", "loglik": [-2.7695, -0.9731, -1.9414, -0.8794], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1139, "gold": "A", "item_id": "medmcqa-9cda8aff-7c42-4c13-af2f-48282d65dbae", "loglik": [-1.333, -1.2861, -1.6768, -1.3018], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 1142, "gold": "A", "item_id": "medmcqa-0bfdb9f1-4000-4e4f-bab7-6858195faf99", "loglik": [-3.4727, -1.7695, -0.2854, -3.0664], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1159, "gold": "A", "item_id": "medmcqa-cf9b1f6c-4594-4cc8-94bb-3b1c10be80f9", "loglik": [-0.7148, -1.3867, -2.293, -1.8398], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1168, "gold": "B", "item_id": "medmcqa-5951aa74-d30c-4c33-b1e6-dd5e5d103ca0", "loglik": [-0.5806, -1.3154, -2.2207, -2.7832], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 1241, "gold": "C", "item_id": "medmcqa-61e943fb-b106-4e28-9639-4d6a46cd53ee", "loglik": [-1.3398, -2.3555, -1.1367, -1.1367], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1251, "gold": "B", "item_id": "medmcqa-026d473e-9f24-45f9-8a98-43045be5c30e", "loglik": [-1.876, -0.9233, -1.376, -1.626], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1377, "gold": "D", "item_id": "medmcqa-bfc36be7-2c7f-40eb-93ee-8ac75f1e92b1", "loglik": [-1.375, -2.7969, -3.6719, -0.4219], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 1391, "gold": "A", "item_id": "medmcqa-90d508fa-01fd-4b1f-811e-6fc4a0df7054", "loglik": [-0.3582, -3.0762, -2.3887, -1.8428], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 1439, "gold": "B", "item_id": "medmcqa-2803b85b-0acd-42a6-92f5-6f5b3ce60345", "loglik": [-1.2686, -0.8936, -2.1602, -1.6436], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 1448, "gold": "A", "item_id": "medmcqa-1920da28-e234-4f1e-8a02-8eb426ca5478", "loglik": [-1.8066, -4.8711, -2.541, -0.2913], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1450, "gold": "A", "item_id": "medmcqa-3ee700bc-5cac-4228-b0a2-5164512b90e4", "loglik": [-1.1826, -0.3855, -7.1367, -4.4023], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1456, "gold": "B", "item_id": "medmcqa-985566bc-67a2-4f42-8bc5-4bd8bfc84bab", "loglik": [-3.0391, -0.0854, -3.6641, -4.8984], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1629, "gold": "C", "item_id": "medmcqa-a9471eed-081f-450b-86ee-d1bb788bb833", "loglik": [-3.9199, -4.2812, -0.045, -4.6094], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1631, "gold": "D", "item_id": "medmcqa-e6ffb56f-8545-4c0a-ba5f-2f5294d6a544", "loglik": [-6.1758, -3.2051, -5.3008, -0.0496], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1659, "gold": "B", "item_id": "medmcqa-4b23b26b-c4d1-4273-af66-90c76a7a777c", "loglik": [-1.6182, -1.3525, -0.7739, -2.5078], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 1667, "gold": "C", "item_id": "medmcqa-be215652-7a51-4c13-89f7-c5e747c322c7", "loglik": [-1.4717, -1.3623, -1.4248, -1.2998], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1704, "gold": "A", "item_id": "medmcqa-16230bcb-8896-467c-ae66-616676d00b65", "loglik": [-1.2324, -1.1387, -2.7012, -1.1387], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 1761, "gold": "D", "item_id": "medmcqa-d958d68a-5fb2-4e85-bbb3-fda0acb43676", "loglik": [-1.4453, -1.3828, -1.4922, -1.2734], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 1780, "gold": "C", "item_id": "medmcqa-75dcff0b-8b25-4f65-ad83-2eee05950ba1", "loglik": [-3.1523, -2.8555, -0.1521, -3.2461], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1804, "gold": "A", "item_id": "medmcqa-a343b113-be09-419c-8fc2-159e59643646", "loglik": [-0.6929, -0.7085, -5.5977, -5.9258], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 1816, "gold": "D", "item_id": "medmcqa-709f4d14-4462-4615-8827-be22270e2b55", "loglik": [-2.2109, -3.4766, -2.9141, -0.2274], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1845, "gold": "B", "item_id": "medmcqa-75804c47-d068-4944-a996-6fdb3d2379e5", "loglik": [-0.875, -1.6719, -1.3906, -1.9375], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1885, "gold": "C", "item_id": "medmcqa-01b1ae45-1e78-43e1-bc18-a13e07539645", "loglik": [-0.6914, -3.1289, -0.9414, -2.7383], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1917, "gold": "B", "item_id": "medmcqa-75782e42-9a55-4b14-a697-8c06a92870f3", "loglik": [-1.1104, -1.7041, -1.0166, -2.0801], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 1933, "gold": "D", "item_id": "medmcqa-51580a67-7a2f-44fb-92f3-b0017142c32c", "loglik": [-2.4883, -1.4258, -2.957, -0.4729], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 1984, "gold": "B", "item_id": "medmcqa-133e30cf-e988-44dc-b6ab-6e3eee5f1197", "loglik": [-0.3535, -1.4785, -2.916, -4.3711], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 1991, "gold": "C", "item_id": "medmcqa-be5656ab-bce8-4905-827d-45d9e99a9e1c", "loglik": [-1.6943, -1.2881, -2.6777, -0.7568], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 2008, "gold": "C", "item_id": "medmcqa-2764f129-0e83-45be-a4cb-71bd633ed2da", "loglik": [-1.0518, -2.1465, -1.9736, -0.9424], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 2054, "gold": "A", "item_id": "medmcqa-85cb22b1-2b4f-4ee5-bdc0-75561bef3ac2", "loglik": [-0.9761, -1.7891, -1.2266, -1.8203], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2056, "gold": "A", "item_id": "medmcqa-6e7dc35e-f7f1-4c23-a661-6c5eb5a1afe8", "loglik": [-0.394, -1.8779, -2.1758, -2.8789], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 2166, "gold": "B", "item_id": "medmcqa-3f41f911-cf5c-4227-b32b-7efd0b2fc191", "loglik": [-0.9648, -2.1211, -1.1211, -1.7617], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 2210, "gold": "B", "item_id": "medmcqa-119b2538-3a82-4ed2-94bc-50e807b9545e", "loglik": [-1.2168, -1.498, -1.3887, -1.4824], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2271, "gold": "B", "item_id": "medmcqa-05b86488-310e-4b41-bcd9-05f3f223eca2", "loglik": [-2.5801, -0.0966, -4.457, -5.7695], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 2283, "gold": "C", "item_id": "medmcqa-6d927c16-b63e-4534-8578-8eaa44008923", "loglik": [-1.0205, -0.6143, -3.0977, -2.9414], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 2414, "gold": "A", "item_id": "medmcqa-a0ad697e-a58d-436f-ab0a-7918485f9f32", "loglik": [-6.3945, -5.5977, -5.8789, -0.0196], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 2420, "gold": "D", "item_id": "medmcqa-efc03688-d97e-4d32-b963-944494fab200", "loglik": [-1.9678, -2.25, -0.3743, -2.75], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 2426, "gold": "C", "item_id": "medmcqa-8f39d375-f28e-41de-a0f4-6bf5757c9cd4", "loglik": [-2.9805, -2.793, -0.1989, -2.6992], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 2452, "gold": "D", "item_id": "medmcqa-55b01624-a67f-4680-b4df-f5f693a5ba90", "loglik": [-2.7891, -1.0547, -1.3203, -1.1328], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2473, "gold": "B", "item_id": "medmcqa-17f75fe3-36a0-4b95-a931-8f5592684359", "loglik": [-1.1719, -0.4998, -2.9844, -3.5156], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2496, "gold": "C", "item_id": "medmcqa-d4c25e5f-165a-4a64-a006-77ecc0ff93b6", "loglik": [-1.9873, -2.3945, -0.3311, -2.9414], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 2515, "gold": "D", "item_id": "medmcqa-446815cb-5909-4927-be79-d9ff03a2cf16", "loglik": [-3.8984, -0.1176, -4.3047, -2.5703], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2555, "gold": "B", "item_id": "medmcqa-5f0ad8da-864f-49f7-952f-f4755813e4c5", "loglik": [-2.248, -0.1235, -5.375, -5.7969], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2570, "gold": "D", "item_id": "medmcqa-e3ff3b29-7ef6-41d9-bc6e-e3d6b52d340c", "loglik": [-5.3398, -1.8857, -3.041, -0.2291], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 2608, "gold": "D", "item_id": "medmcqa-83cbb1ff-e31f-4eec-b198-b39874f05c2a", "loglik": [-2.6758, -0.8013, -1.0674, -2.0039], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2620, "gold": "A", "item_id": "medmcqa-7b32d1d8-6d89-4615-a1e4-f56d02b7339f", "loglik": [-0.8901, -1.7178, -1.499, -1.6865], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2660, "gold": "C", "item_id": "medmcqa-bbc11393-3dfe-49f8-a57d-2ab6e0e8e46f", "loglik": [-2.4043, -1.6084, -0.8423, -1.2803], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 2671, "gold": "A", "item_id": "medmcqa-e218a65d-5637-4f85-83ed-b21c1eb3e025", "loglik": [-0.9775, -0.5244, -5.7578, -3.5879], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2684, "gold": "D", "item_id": "medmcqa-25dc40da-7399-4011-b617-3b9c42d88277", "loglik": [-2.1992, -2.2305, -2.3711, -0.3875], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 2734, "gold": "C", "item_id": "medmcqa-8abcdea2-c351-4df7-ab42-8898201f9949", "loglik": [-0.9707, -2.1113, -1.9238, -1.127], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2740, "gold": "B", "item_id": "medmcqa-ef893ac0-92b0-4689-984d-7eade2d8cf53", "loglik": [-2.5801, -0.2208, -2.6738, -2.9395], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 2757, "gold": "A", "item_id": "medmcqa-8aaa9545-8120-495d-ba08-9d950c880521", "loglik": [-1.168, -2.5273, -0.855, -1.7148], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 2783, "gold": "B", "item_id": "medmcqa-362bf8a9-de7e-48dd-aecf-3ecd13b280b8", "loglik": [-2.1797, -0.2739, -2.1172, -5.1016], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 2784, "gold": "B", "item_id": "medmcqa-1bcc4893-9641-4f95-95c7-8c81492eb9a9", "loglik": [-0.4417, -2.0195, -3.1758, -1.707], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2810, "gold": "D", "item_id": "medmcqa-80613325-b0b3-41a1-85eb-7be6749e1114", "loglik": [-2.4863, -1.2051, -2.502, -0.6274], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 2823, "gold": "A", "item_id": "medmcqa-098dae62-49e8-426a-a58e-8fecf341cd05", "loglik": [-0.2832, -3.7207, -3.7988, -1.6113], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2881, "gold": "B", "item_id": "medmcqa-9c728d18-2481-4292-bd23-e13be8e509ed", "loglik": [-1.5518, -0.9897, -1.0361, -2.7871], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2883, "gold": "B", "item_id": "medmcqa-d18484d7-55a9-4be3-9ba6-59cdd44d1bdf", "loglik": [-1.916, -0.8062, -1.5723, -1.6191], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 2893, "gold": "C", "item_id": "medmcqa-711d84b6-7ff9-4ed2-a961-b7c604e3a9c6", "loglik": [-0.4011, -1.8857, -2.3691, -2.4785], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 2894, "gold": "B", "item_id": "medmcqa-6365d158-c101-446c-b8d6-978770aade5c", "loglik": [-1.5234, -0.9146, -1.1797, -2.6172], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2923, "gold": "B", "item_id": "medmcqa-764694a9-132d-4eec-ba26-4a74eb003e0e", "loglik": [-0.9878, -0.8159, -2.8477, -2.0664], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 2974, "gold": "C", "item_id": "medmcqa-1074d0b1-ca5c-4ace-b60d-2c06ceec9a25", "loglik": [-1.4873, -1.3467, -0.9878, -1.9561], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3006, "gold": "B", "item_id": "medmcqa-515dde1e-02e3-41d5-a88f-3d2a99421bde", "loglik": [-1.2324, -1.4355, -1.2793, -1.6543], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 3019, "gold": "C", "item_id": "medmcqa-240aaafe-ec41-447b-85eb-d8da168c1430", "loglik": [-1.5029, -1.9092, -0.7065, -2.0039], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3023, "gold": "B", "item_id": "medmcqa-6d599732-8a50-4969-a176-ce4f99bd4b03", "loglik": [-3.9766, -3.6328, -5.0547, -0.054], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 3059, "gold": "D", "item_id": "medmcqa-bcda201c-3107-4751-8888-741d21455124", "loglik": [-2.2461, -1.9805, -1.0898, -0.8716], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 3066, "gold": "B", "item_id": "medmcqa-65981270-0578-4774-8c79-e11a22df3497", "loglik": [-1.0928, -0.4519, -3.998, -5.0], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 3114, "gold": "A", "item_id": "medmcqa-a5111f37-cbc9-4c4b-8106-47acb7d4e164", "loglik": [-0.6802, -0.9458, -2.6484, -3.3828], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3143, "gold": "B", "item_id": "medmcqa-5fd61c9e-450e-415b-a055-24f62de4cdd6", "loglik": [-1.3164, -1.8477, -1.7227, -0.9414], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 3180, "gold": "C", "item_id": "medmcqa-6e500f1f-ac66-448a-9739-bd8e50f83813", "loglik": [-4.9531, -3.3418, -0.0453, -6.4375], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 3203, "gold": "B", "item_id": "medmcqa-42f2f76c-53be-4d1a-a728-e977410cfc17", "loglik": [-1.21, -0.6006, -2.2578, -3.0391], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3212, "gold": "B", "item_id": "medmcqa-51009d05-2b8f-491d-8865-d2f01cf3647b", "loglik": [-0.238, -4.0195, -3.8945, -1.7539], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 3223, "gold": "D", "item_id": "medmcqa-8b0ca482-a870-42ed-ba9a-f80aa451c604", "loglik": [-2.6387, -5.8906, -2.9043, -0.139], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 3239, "gold": "A", "item_id": "medmcqa-72d767a5-261a-4055-b23a-fb1e1a5acb23", "loglik": [-0.4858, -1.3604, -2.3457, -3.4395], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 3278, "gold": "B", "item_id": "medmcqa-6aa721d5-4f94-45a2-84f7-b63b99eec763", "loglik": [-3.4316, -0.2905, -1.9316, -2.6035], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 3282, "gold": "C", "item_id": "medmcqa-139bf567-af01-4e7d-b056-a64cd96b28ba", "loglik": [-1.8623, -2.0352, -0.4407, -2.707], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3326, "gold": "D", "item_id": "medmcqa-2ba3c5df-e02c-4031-9529-3315afaac0d8", "loglik": [-0.3406, -2.3086, -3.0273, -1.9658], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3346, "gold": "D", "item_id": "medmcqa-5a6d126f-f4cd-4cf2-b58d-6390a88f80f1", "loglik": [-1.2793, -0.6538, -1.7637, -3.5449], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 3374, "gold": "A", "item_id": "medmcqa-3e05b090-8799-4bda-b2eb-2d6470601177", "loglik": [-0.5586, -1.6836, -1.5273, -3.7617], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3397, "gold": "C", "item_id": "medmcqa-7c4a40cb-8e92-43fb-9404-8888ff65ad3b", "loglik": [-0.959, -0.7402, -2.4277, -2.9902], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3407, "gold": "C", "item_id": "medmcqa-1dd7c5e5-c294-443c-91a7-4081c04675f2", "loglik": [-4.7734, -2.3965, -4.6797, -0.1155], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 3434, "gold": "A", "item_id": "medmcqa-5b21874b-3f6e-434f-8dda-efa6819c584d", "loglik": [-1.0469, -0.6875, -4.5625, -2.0], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3441, "gold": "B", "item_id": "medmcqa-ddc068c6-3478-47a9-8897-456a778c5f6d", "loglik": [-0.7573, -1.0537, -3.0078, -2.0234], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3485, "gold": "A", "item_id": "medmcqa-4ec7c6a9-4bb5-4c6e-adae-691e30948d47", "loglik": [-2.6465, -0.3958, -1.4893, -3.5684], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3524, "gold": "C", "item_id": "medmcqa-3bd5b6d0-dd76-46b4-9e6c-6a07adfd138a", "loglik": [-0.4648, -1.5742, -1.9336, -3.9336], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 3541, "gold": "C", "item_id": "medmcqa-dbd611a1-4294-43fb-b290-49a0746eb7f2", "loglik": [-2.0371, -2.8027, -0.5225, -1.5381], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3643, "gold": "B", "item_id": "medmcqa-f4f1be65-d615-4550-b159-a85d27b8b518", "loglik": [-0.6426, -1.9863, -2.4395, -1.3926], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3672, "gold": "C", "item_id": "medmcqa-794f0675-d04f-4133-be9c-96d3ba44238e", "loglik": [-0.6274, -2.6895, -1.2529, -2.2363], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3698, "gold": "A", "item_id": "medmcqa-fe5ec2bf-ad45-4b77-9a7e-9fc2a67d9527", "loglik": [-3.7812, -0.9849, -0.5317, -4.1719], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3735, "gold": "B", "item_id": "medmcqa-95f4dac5-4c51-49d9-9654-f620c04909db", "loglik": [-0.4299, -1.4922, -2.4609, -3.2578], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 3747, "gold": "C", "item_id": "medmcqa-6fc6f438-00bc-4695-8aa8-e6c3f85e75a3", "loglik": [-3.4102, -3.3945, -0.1142, -3.2695], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3758, "gold": "B", "item_id": "medmcqa-5344a6b5-cfa1-47bf-8849-18ea7c196869", "loglik": [-3.5859, -1.0693, -1.6006, -0.8511], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 3787, "gold": "B", "item_id": "medmcqa-443af13e-78ee-4ce6-8638-353eabbdaccc", "loglik": [-2.7168, -0.108, -4.7969, -3.5918], "pred": "B", "subject": "Dental"}
+{"correct": 1, "doc_id": 3824, "gold": "A", "item_id": "medmcqa-f544aff2-aebb-41fd-97e7-da9dd55cfc23", "loglik": [-0.8394, -1.6201, -1.0732, -3.668], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3830, "gold": "D", "item_id": "medmcqa-089ef90e-8366-4a21-8b67-e9c59cb4c5a6", "loglik": [-1.0146, -1.0146, -2.498, -1.6553], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3833, "gold": "A", "item_id": "medmcqa-8e2f6880-49c5-47aa-871e-00ae485e9ca9", "loglik": [-2.0176, -2.0801, -0.6582, -1.502], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 3854, "gold": "A", "item_id": "medmcqa-62b2a82d-7ad9-4417-8319-645c25d0e5a3", "loglik": [-0.7188, -1.4844, -1.9219, -2.0312], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3860, "gold": "C", "item_id": "medmcqa-50f76810-3187-472e-b094-3a65749eb76f", "loglik": [-1.9326, -0.8853, -1.1357, -2.1191], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3863, "gold": "A", "item_id": "medmcqa-0f037b6e-1a78-40b6-9eed-fbd59fe36618", "loglik": [-3.1973, -0.2756, -2.666, -2.041], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3884, "gold": "A", "item_id": "medmcqa-ea94ff5d-e9d2-4ee0-b761-a372ddae0227", "loglik": [-2.6602, -0.7856, -2.0039, -1.082], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3895, "gold": "A", "item_id": "medmcqa-0925dd1a-ccd7-4cc2-acf9-2f679313314c", "loglik": [-2.5254, -2.2441, -0.7432, -1.0869], "pred": "C", "subject": "Dental"}
+{"correct": 0, "doc_id": 3904, "gold": "B", "item_id": "medmcqa-8e59864a-686e-4d9f-9adf-803f4edca225", "loglik": [-0.6338, -2.2422, -1.2119, -2.7422], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3984, "gold": "C", "item_id": "medmcqa-13843218-9b0f-452b-868b-b8d3b317730a", "loglik": [-2.4355, -0.4514, -1.3887, -3.7324], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 3985, "gold": "C", "item_id": "medmcqa-7a660bba-aabd-448d-9d13-38ee7837c97f", "loglik": [-0.9517, -2.1699, -1.124, -1.749], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 3998, "gold": "B", "item_id": "medmcqa-bf5ce756-8fbf-432d-aaa2-e8b26afe711b", "loglik": [-0.7266, -3.0703, -1.1797, -1.8359], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 4006, "gold": "A", "item_id": "medmcqa-15d397c9-5a33-4c5e-b48e-a1625e079630", "loglik": [-2.4141, -4.7578, -3.2734, -0.1478], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 4026, "gold": "B", "item_id": "medmcqa-01dc74dc-0e66-44a9-a4c2-7594d49b8c88", "loglik": [-0.377, -1.752, -2.0488, -4.5], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 4040, "gold": "C", "item_id": "medmcqa-791f4a8a-a060-4a91-9810-7bdd4f4d500e", "loglik": [-2.0039, -1.6279, -0.4409, -3.707], "pred": "C", "subject": "Dental"}
+{"correct": 1, "doc_id": 4054, "gold": "D", "item_id": "medmcqa-24e4fee0-172f-4eac-87e5-030f3b409318", "loglik": [-1.2266, -2.2891, -1.7422, -0.8516], "pred": "D", "subject": "Dental"}
+{"correct": 0, "doc_id": 4064, "gold": "C", "item_id": "medmcqa-39af86fb-6d6a-4d2f-b1cc-670989ca78b8", "loglik": [-1.3213, -2.4766, -1.4775, -0.8677], "pred": "D", "subject": "Dental"}
+{"correct": 1, "doc_id": 4138, "gold": "A", "item_id": "medmcqa-72440397-8eda-480d-8d46-67fada73ecdb", "loglik": [-0.2103, -2.5391, -5.1641, -2.2578], "pred": "A", "subject": "Dental"}
+{"correct": 1, "doc_id": 4157, "gold": "A", "item_id": "medmcqa-e46fcce2-0a8b-4d37-9e84-ac6f7c227480", "loglik": [-0.0486, -3.5645, -5.0156, -4.4844], "pred": "A", "subject": "Dental"}
+{"correct": 0, "doc_id": 4174, "gold": "A", "item_id": "medmcqa-1470a21a-b226-4cd1-904d-85cd841d5afa", "loglik": [-1.6035, -1.0098, -1.5723, -1.4941], "pred": "B", "subject": "Dental"}
+{"correct": 0, "doc_id": 665, "gold": "D", "item_id": "medmcqa-693c8309-0775-4b3a-899a-5fd7064993f3", "loglik": [-2.0527, -2.3496, -0.4739, -1.8799], "pred": "C", "subject": "ENT"}
+{"correct": 0, "doc_id": 1389, "gold": "C", "item_id": "medmcqa-ac97880a-0862-45cf-bed5-a2000a93343c", "loglik": [-2.1797, -1.8984, -1.8203, -0.5547], "pred": "D", "subject": "ENT"}
+{"correct": 0, "doc_id": 1506, "gold": "C", "item_id": "medmcqa-6ace03e9-b26c-455d-a158-71cbf9a0854b", "loglik": [-2.4551, -0.3137, -2.4238, -2.377], "pred": "B", "subject": "ENT"}
+{"correct": 0, "doc_id": 1666, "gold": "C", "item_id": "medmcqa-e584f190-0cb1-4ef7-9e2a-e4f0ccc8e01b", "loglik": [-1.8525, -0.915, -1.29, -1.8057], "pred": "B", "subject": "ENT"}
+{"correct": 0, "doc_id": 1848, "gold": "A", "item_id": "medmcqa-7a42db5f-21a1-41f2-a436-17f685bbea63", "loglik": [-1.3857, -3.2773, -2.9492, -0.4175], "pred": "D", "subject": "ENT"}
+{"correct": 0, "doc_id": 2409, "gold": "A", "item_id": "medmcqa-825a499b-6eac-41df-b015-85662bfe6aa9", "loglik": [-1.9336, -0.9336, -2.1211, -1.0742], "pred": "B", "subject": "ENT"}
+{"correct": 0, "doc_id": 336, "gold": "B", "item_id": "medmcqa-044e8f11-ca21-4220-9ddc-0fca648ed401", "loglik": [-4.0391, -2.1777, -1.1152, -0.6157], "pred": "D", "subject": "Forensic Medicine"}
+{"correct": 1, "doc_id": 1311, "gold": "B", "item_id": "medmcqa-08261677-c2d9-467e-9b36-2860dd82c98c", "loglik": [-2.2773, -0.9966, -1.3711, -1.293], "pred": "B", "subject": "Forensic Medicine"}
+{"correct": 0, "doc_id": 1430, "gold": "C", "item_id": "medmcqa-5d03f6ea-52a4-4358-94b1-ab24840e0f77", "loglik": [-1.4121, -0.647, -1.6621, -3.1621], "pred": "B", "subject": "Forensic Medicine"}
+{"correct": 1, "doc_id": 1632, "gold": "C", "item_id": "medmcqa-16a341b0-9b1c-4a94-94a6-8f8aaa931295", "loglik": [-1.3066, -2.8379, -0.5254, -2.541], "pred": "C", "subject": "Forensic Medicine"}
+{"correct": 1, "doc_id": 2207, "gold": "B", "item_id": "medmcqa-2cc86d26-ec8a-43f8-8fa8-bd56054db9f2", "loglik": [-2.0312, -0.9995, -1.0771, -1.8584], "pred": "B", "subject": "Forensic Medicine"}
+{"correct": 1, "doc_id": 3634, "gold": "A", "item_id": "medmcqa-38c0c9e6-009c-4ef1-a3ae-2e3aacd715e7", "loglik": [-0.1721, -3.2344, -2.625, -3.0938], "pred": "A", "subject": "Forensic Medicine"}
+{"correct": 0, "doc_id": 3708, "gold": "D", "item_id": "medmcqa-ae166e0e-586c-42ab-9438-dd02125e35c0", "loglik": [-2.3027, -1.3809, -0.5371, -2.7559], "pred": "C", "subject": "Forensic Medicine"}
+{"correct": 0, "doc_id": 3832, "gold": "C", "item_id": "medmcqa-12bfacf6-a27e-41dc-85ee-64e1b8955000", "loglik": [-0.6743, -2.8926, -1.7676, -1.3457], "pred": "A", "subject": "Forensic Medicine"}
+{"correct": 0, "doc_id": 23, "gold": "A", "item_id": "medmcqa-7f0270fd-7d45-43ec-b77e-0038115bb845", "loglik": [-1.6318, -0.9595, -1.5068, -1.6162], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 191, "gold": "A", "item_id": "medmcqa-b0c6997a-bf16-4f7c-8c44-7a3504e0131b", "loglik": [-0.6382, -2.2949, -2.9355, -1.1533], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 379, "gold": "D", "item_id": "medmcqa-d2aaf9d3-3ec9-450c-94cd-7df423fe49e8", "loglik": [-3.7461, -6.6055, -4.1367, -0.0426], "pred": "D", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 390, "gold": "A", "item_id": "medmcqa-18d1c316-555c-4528-a9c4-e8ce1a613179", "loglik": [-2.3809, -0.8643, -1.2393, -1.6299], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 642, "gold": "A", "item_id": "medmcqa-c605ec0d-1c44-4ac9-a57d-df54ba52bb0e", "loglik": [-0.0367, -4.4727, -4.1289, -4.9883], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 1107, "gold": "B", "item_id": "medmcqa-9ccd0247-2723-4707-b569-ca0402842cd9", "loglik": [-0.6665, -2.1504, -2.4316, -1.2754], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 1367, "gold": "C", "item_id": "medmcqa-621316dd-5ef8-4ba1-953c-6f214b414b56", "loglik": [-1.0879, -0.9004, -1.7441, -2.5098], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 1488, "gold": "A", "item_id": "medmcqa-35624499-7ec5-46f1-8cc2-befa686829c4", "loglik": [-3.3516, -0.1171, -4.2422, -2.8047], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 1493, "gold": "A", "item_id": "medmcqa-ebc190bb-4cbd-4640-9429-8fbd448866dc", "loglik": [-0.1451, -2.8945, -2.6914, -4.5664], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 1496, "gold": "A", "item_id": "medmcqa-8340cc71-4a15-4134-b582-fed084765cf0", "loglik": [-0.3193, -3.0527, -3.2871, -1.6787], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 1567, "gold": "B", "item_id": "medmcqa-80373cf9-5322-408c-ae6b-bff7f9fb2d88", "loglik": [-2.1445, -0.2703, -2.1914, -4.957], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 1642, "gold": "C", "item_id": "medmcqa-b92d77c7-0eeb-411f-952f-ffb56e8f11fe", "loglik": [-1.0889, -1.7451, -3.9004, -0.7603], "pred": "D", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 1982, "gold": "A", "item_id": "medmcqa-114fa1dd-9f36-4b84-9f6a-68303bc63931", "loglik": [-2.5918, -1.1855, -0.4978, -4.543], "pred": "C", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 2037, "gold": "D", "item_id": "medmcqa-9b5bcf09-aa7a-4403-b9a4-de02f52f7e2e", "loglik": [-1.3223, -1.2598, -1.2285, -1.8691], "pred": "C", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 2346, "gold": "C", "item_id": "medmcqa-788eb150-1cd1-4895-b929-56ffa68eae61", "loglik": [-0.3579, -1.4512, -4.1875, -2.9824], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 2387, "gold": "D", "item_id": "medmcqa-adfb47b8-d96c-4e96-8ada-389755a65d4e", "loglik": [-0.9497, -0.8872, -2.043, -2.668], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 2403, "gold": "C", "item_id": "medmcqa-c5d41fc0-2e6a-4348-848e-5dabfa570178", "loglik": [-5.2109, -3.1328, -0.0856, -3.4453], "pred": "C", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3067, "gold": "A", "item_id": "medmcqa-23c2e953-ff3a-48f2-9056-939ee23af812", "loglik": [-1.2998, -0.7061, -3.0957, -1.6748], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3209, "gold": "D", "item_id": "medmcqa-bc46c956-a37d-4804-91ac-fa804db85897", "loglik": [-4.0234, -0.429, -4.8516, -1.1318], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3350, "gold": "C", "item_id": "medmcqa-ee6fc122-f7cc-425b-b372-9c55c4f5f5ab", "loglik": [-1.7725, -0.9756, -1.3975, -1.585], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3417, "gold": "B", "item_id": "medmcqa-ca59647e-62f5-4b2e-a0fd-e85f05af60c4", "loglik": [-1.0449, -1.0605, -2.2637, -1.623], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3649, "gold": "A", "item_id": "medmcqa-ade05b67-b4f5-433b-8433-d74e009763cd", "loglik": [-1.7656, -0.8442, -1.2344, -2.2344], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3684, "gold": "C", "item_id": "medmcqa-0fc0b4ce-9bfd-48a2-920d-88c67e2c4e9c", "loglik": [-4.0234, -0.0562, -3.4785, -5.3047], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 3791, "gold": "A", "item_id": "medmcqa-f8844c8c-594b-417e-81a5-e46ebe4b65d8", "loglik": [-1.6875, -3.4375, -3.6094, -0.2808], "pred": "D", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 3943, "gold": "B", "item_id": "medmcqa-46b87f53-f447-40b1-a0c0-85334ad9d9e7", "loglik": [-1.1924, -1.0518, -2.4883, -1.333], "pred": "B", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 4060, "gold": "A", "item_id": "medmcqa-ba4a3d15-f1cf-4072-b836-ecf2785657e3", "loglik": [-0.8555, -1.7461, -1.6836, -1.5586], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 0, "doc_id": 4082, "gold": "D", "item_id": "medmcqa-9468ca2d-bf9d-4819-8e72-15c5d9c6df2f", "loglik": [-0.9238, -2.127, -2.0332, -1.0488], "pred": "A", "subject": "Gynaecology & Obstetrics"}
+{"correct": 1, "doc_id": 2, "gold": "C", "item_id": "medmcqa-b64a9cd7-d076-4c55-8be1-f9c44fece6cc", "loglik": [-3.8613, -2.2207, -0.2205, -2.7051], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 53, "gold": "A", "item_id": "medmcqa-783df438-362f-4ab5-a8b3-11ea2bfb2af7", "loglik": [-0.8398, -0.8086, -2.8711, -2.7305], "pred": "B", "subject": "Medicine"}
+{"correct": 1, "doc_id": 242, "gold": "D", "item_id": "medmcqa-f1586168-b5a9-4b50-acf4-f0575cfb10ea", "loglik": [-7.457, -7.2383, -5.8945, -0.0043], "pred": "D", "subject": "Medicine"}
+{"correct": 1, "doc_id": 322, "gold": "D", "item_id": "medmcqa-8a85e4e4-e42b-41a9-87e2-6f8e7105262c", "loglik": [-4.1719, -4.5, -6.9062, -0.0293], "pred": "D", "subject": "Medicine"}
+{"correct": 0, "doc_id": 340, "gold": "C", "item_id": "medmcqa-80066b5e-d621-4912-b7fd-f1e867a9c8d4", "loglik": [-1.5264, -1.5264, -1.8389, -0.9014], "pred": "D", "subject": "Medicine"}
+{"correct": 0, "doc_id": 460, "gold": "A", "item_id": "medmcqa-e4443b0c-20d3-464c-800b-b1ffe606f65d", "loglik": [-1.1025, -3.4629, -0.915, -1.4463], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 461, "gold": "B", "item_id": "medmcqa-26a82f11-4261-4975-bee9-ae8d4e74cdb7", "loglik": [-2.8789, -3.2227, -0.5356, -1.1455], "pred": "C", "subject": "Medicine"}
+{"correct": 1, "doc_id": 464, "gold": "D", "item_id": "medmcqa-c953149a-a76d-47a2-8d08-35614f87217a", "loglik": [-1.2012, -1.8262, -1.6855, -1.0449], "pred": "D", "subject": "Medicine"}
+{"correct": 0, "doc_id": 523, "gold": "D", "item_id": "medmcqa-7ffc9c61-2859-48c9-8d16-7776f1e81c3d", "loglik": [-2.2324, -2.7324, -0.374, -1.9834], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 778, "gold": "D", "item_id": "medmcqa-faf1c5f2-3ab2-492c-b58b-1dd81fd5a6d7", "loglik": [-1.1621, -1.4434, -1.209, -1.8965], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 787, "gold": "D", "item_id": "medmcqa-a4ae6ca7-78a0-48fd-956c-4259c141d158", "loglik": [-0.5186, -0.9561, -5.9102, -4.1289], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 795, "gold": "A", "item_id": "medmcqa-2df0c27e-46a1-4f96-9de7-fb847c80a454", "loglik": [-0.0162, -4.3906, -6.8438, -6.1719], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 1378, "gold": "D", "item_id": "medmcqa-1b4a2a96-cd33-4ccd-bf13-3c208a07983a", "loglik": [-3.5078, -0.4758, -1.335, -2.4922], "pred": "B", "subject": "Medicine"}
+{"correct": 0, "doc_id": 1489, "gold": "B", "item_id": "medmcqa-97bd8c32-3ea6-41e1-856e-b9a91d20e643", "loglik": [-0.0894, -3.3398, -3.1211, -5.168], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 1717, "gold": "A", "item_id": "medmcqa-5cd9cad4-7480-47d8-8266-b3a4fc04a9e7", "loglik": [-0.8076, -1.6201, -2.3379, -1.3545], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 1807, "gold": "B", "item_id": "medmcqa-d14e6c46-6260-4e50-b24e-19218c4c9587", "loglik": [-1.415, -0.9771, -4.4297, -1.0088], "pred": "B", "subject": "Medicine"}
+{"correct": 1, "doc_id": 1832, "gold": "A", "item_id": "medmcqa-aa9f6ffb-1c54-4556-b121-b0b5578f33e9", "loglik": [-0.1139, -2.6602, -3.8164, -4.3008], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 1858, "gold": "C", "item_id": "medmcqa-d0697a02-3e59-40a9-a2e4-8fae8ebf5e9b", "loglik": [-0.5254, -1.7441, -2.166, -2.1504], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 1961, "gold": "C", "item_id": "medmcqa-2b9d12e5-fc33-46af-a2dd-a4a5cceae861", "loglik": [-0.2834, -1.6113, -3.4238, -4.2695], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 1971, "gold": "A", "item_id": "medmcqa-96134923-f73b-48f4-8361-c964c3ab16b2", "loglik": [-0.3789, -1.5195, -2.3789, -5.707], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 2108, "gold": "C", "item_id": "medmcqa-3be9da5f-c0da-4e42-bbfe-a6a1373a7c5d", "loglik": [-3.7207, -5.5469, -0.0331, -5.4688], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 2213, "gold": "B", "item_id": "medmcqa-6c9b338a-0cc7-4a30-88a3-e79c0248e488", "loglik": [-0.979, -1.542, -1.042, -2.8691], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 2295, "gold": "A", "item_id": "medmcqa-a022212e-e91a-4bb5-b6ff-b1fb57ff48e0", "loglik": [-1.584, -0.3025, -3.0527, -4.8477], "pred": "B", "subject": "Medicine"}
+{"correct": 0, "doc_id": 2297, "gold": "B", "item_id": "medmcqa-dc1b8f32-3a71-4533-9e99-896ba280e5cf", "loglik": [-0.6943, -1.835, -3.4297, -1.1787], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 2334, "gold": "C", "item_id": "medmcqa-d6a26b98-72cd-4b9a-9f77-6bf6941d07ec", "loglik": [-2.127, -2.0957, -1.0635, -0.8916], "pred": "D", "subject": "Medicine"}
+{"correct": 1, "doc_id": 2574, "gold": "B", "item_id": "medmcqa-d052235a-dcdc-46e0-89e5-992eed6dc580", "loglik": [-2.8691, -0.1508, -2.9785, -3.4316], "pred": "B", "subject": "Medicine"}
+{"correct": 0, "doc_id": 2872, "gold": "C", "item_id": "medmcqa-27c9ead8-7baf-4c63-bf48-a03e57812c44", "loglik": [-0.8315, -2.0508, -2.4883, -1.0498], "pred": "A", "subject": "Medicine"}
+{"correct": 1, "doc_id": 2932, "gold": "D", "item_id": "medmcqa-26d80f62-bb99-43ee-8972-aa4dab9a8264", "loglik": [-1.3721, -4.1523, -2.2012, -0.4814], "pred": "D", "subject": "Medicine"}
+{"correct": 0, "doc_id": 3253, "gold": "B", "item_id": "medmcqa-0f5f3f7f-c04c-49a6-92d0-9a58990d6c68", "loglik": [-0.3003, -5.9883, -5.3789, -1.3779], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 3324, "gold": "D", "item_id": "medmcqa-650ee1f1-18e4-4e45-beaa-94f44eca7de5", "loglik": [-1.1094, -3.2031, -1.0938, -1.2344], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 3711, "gold": "D", "item_id": "medmcqa-b3eb29e7-c094-4225-8379-8e4341a621a6", "loglik": [-3.2207, -0.7842, -0.7529, -3.4551], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 3813, "gold": "D", "item_id": "medmcqa-ecdd79d8-53c3-4d56-ad8f-695b9122d0e4", "loglik": [-0.9219, -2.1719, -1.4219, -1.4062], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 3964, "gold": "D", "item_id": "medmcqa-cc1da36a-147f-4b74-9015-b7640ebb7ead", "loglik": [-1.0879, -1.6816, -1.1816, -1.7754], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 4075, "gold": "A", "item_id": "medmcqa-e3b61d23-b64b-4b3e-86a8-5b0c08cfd375", "loglik": [-1.0322, -2.3301, -0.8604, -2.0957], "pred": "C", "subject": "Medicine"}
+{"correct": 0, "doc_id": 4171, "gold": "B", "item_id": "medmcqa-b9cd03fe-1e71-40b6-8e36-ac0d9d387d85", "loglik": [-0.8428, -1.2646, -2.1387, -1.7803], "pred": "A", "subject": "Medicine"}
+{"correct": 0, "doc_id": 180, "gold": "B", "item_id": "medmcqa-1bb2cc45-79b6-45f8-add8-e6832e5090f0", "loglik": [-1.0732, -2.5273, -0.917, -1.7295], "pred": "C", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 293, "gold": "D", "item_id": "medmcqa-44483815-3319-493d-b156-d3663a4d61a1", "loglik": [-3.5684, -2.834, -0.1005, -4.8359], "pred": "C", "subject": "Microbiology"}
+{"correct": 1, "doc_id": 353, "gold": "D", "item_id": "medmcqa-a7e312f2-177e-4acf-9ac9-f68f6cb484ea", "loglik": [-3.8574, -2.6543, -3.0137, -0.1545], "pred": "D", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 770, "gold": "A", "item_id": "medmcqa-a432db53-67f5-4865-af52-18edf81d1225", "loglik": [-2.4922, -0.7739, -3.3359, -0.8677], "pred": "B", "subject": "Microbiology"}
+{"correct": 1, "doc_id": 1487, "gold": "C", "item_id": "medmcqa-326b16f4-3bd9-4656-9515-093e7d67ae21", "loglik": [-2.8945, -3.0977, -0.2537, -2.1602], "pred": "C", "subject": "Microbiology"}
+{"correct": 1, "doc_id": 1603, "gold": "A", "item_id": "medmcqa-ba3d2acf-22c5-416f-9d73-63d879a0a03c", "loglik": [-0.3354, -5.7109, -3.5078, -1.3828], "pred": "A", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 1607, "gold": "B", "item_id": "medmcqa-e974e66a-b20d-4557-84df-bbb0af02f12a", "loglik": [-0.0988, -3.0371, -3.8496, -3.7246], "pred": "A", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 1810, "gold": "B", "item_id": "medmcqa-ec05b29c-97f8-4ae5-afe3-f51a00f9fa6f", "loglik": [-0.3162, -2.2227, -3.7539, -1.9883], "pred": "A", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 2219, "gold": "B", "item_id": "medmcqa-080ecd84-88cb-49eb-a9f5-03569b7fa1f0", "loglik": [-0.6235, -3.3262, -4.7188, -0.8735], "pred": "A", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 2854, "gold": "A", "item_id": "medmcqa-e3d7bd81-ad55-4017-8c33-b8fecae9dab2", "loglik": [-1.3174, -1.5518, -0.7393, -3.1914], "pred": "C", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 2868, "gold": "C", "item_id": "medmcqa-7ddb4b66-7d59-42e8-9714-04fdb5741670", "loglik": [-0.1993, -2.8086, -2.4492, -3.4336], "pred": "A", "subject": "Microbiology"}
+{"correct": 1, "doc_id": 2870, "gold": "D", "item_id": "medmcqa-2c4a6f65-70ac-45ad-9bd5-54de396908fd", "loglik": [-1.3799, -1.7861, -2.4902, -0.708], "pred": "D", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 3002, "gold": "C", "item_id": "medmcqa-82fcb071-ca41-45d4-9f0c-ce7a0f5dd6b4", "loglik": [-1.2656, -2.6562, -1.4219, -0.9062], "pred": "D", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 3421, "gold": "D", "item_id": "medmcqa-83e62b82-7186-4bd8-81ad-c035cebd98c9", "loglik": [-0.1506, -3.2285, -3.7285, -2.5879], "pred": "A", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 4132, "gold": "C", "item_id": "medmcqa-22e57519-9267-43a7-888e-70bc373bc109", "loglik": [-3.3984, -0.3672, -1.4297, -3.3828], "pred": "B", "subject": "Microbiology"}
+{"correct": 0, "doc_id": 113, "gold": "C", "item_id": "medmcqa-aadafd4c-cb37-460b-8e6f-28f42d01dd60", "loglik": [-0.6499, -1.8066, -1.5098, -2.4004], "pred": "A", "subject": "Ophthalmology"}
+{"correct": 0, "doc_id": 152, "gold": "C", "item_id": "medmcqa-845fbff7-6332-49ce-8ecb-d62616e2ae9a", "loglik": [-1.5146, -0.4048, -2.8262, -2.9512], "pred": "B", "subject": "Ophthalmology"}
+{"correct": 0, "doc_id": 633, "gold": "A", "item_id": "medmcqa-4a131164-eb3c-4152-9556-b81ae98e2066", "loglik": [-1.3086, -1.2773, -2.0742, -1.1367], "pred": "D", "subject": "Ophthalmology"}
+{"correct": 0, "doc_id": 937, "gold": "B", "item_id": "medmcqa-a1f7c34e-e009-4447-b459-3fe798b4bbc1", "loglik": [-3.1367, -2.8555, -2.2773, -0.23], "pred": "D", "subject": "Ophthalmology"}
+{"correct": 1, "doc_id": 1369, "gold": "B", "item_id": "medmcqa-51203235-22e6-43fb-a51f-a2fcceb5f042", "loglik": [-2.0, -0.1564, -6.0, -5.0781], "pred": "B", "subject": "Ophthalmology"}
+{"correct": 1, "doc_id": 2785, "gold": "A", "item_id": "medmcqa-731b8834-5904-47e0-a208-d46bcf1c6c9b", "loglik": [-0.2944, -3.1855, -2.2793, -2.248], "pred": "A", "subject": "Ophthalmology"}
+{"correct": 0, "doc_id": 3275, "gold": "C", "item_id": "medmcqa-ed92d804-ac83-440a-b908-df404df935ad", "loglik": [-1.9941, -0.2749, -2.8379, -3.1035], "pred": "B", "subject": "Ophthalmology"}
+{"correct": 0, "doc_id": 658, "gold": "B", "item_id": "medmcqa-c6f6754f-21ac-49d0-b8cd-8bf25049d813", "loglik": [-1.6748, -2.8008, -0.8779, -1.0967], "pred": "C", "subject": "Orthopaedics"}
+{"correct": 0, "doc_id": 4059, "gold": "A", "item_id": "medmcqa-3d3d18de-8e78-4d58-90f4-2c9257c76a5e", "loglik": [-1.0098, -0.791, -2.4941, -2.3223], "pred": "B", "subject": "Orthopaedics"}
+{"correct": 0, "doc_id": 443, "gold": "D", "item_id": "medmcqa-d2f3fa53-c024-4179-bf34-169fd7b99fc9", "loglik": [-0.4954, -1.1357, -3.3086, -3.5273], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 526, "gold": "A", "item_id": "medmcqa-05863ba7-3f7b-48eb-a74b-7cd2598065b4", "loglik": [-0.7271, -1.3516, -2.2891, -1.8672], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 569, "gold": "D", "item_id": "medmcqa-da143133-e8d3-44d6-a66d-607ed0bcf458", "loglik": [-3.002, -2.3145, -2.8301, -0.2355], "pred": "D", "subject": "Pathology"}
+{"correct": 0, "doc_id": 710, "gold": "A", "item_id": "medmcqa-1a217f0a-2e93-40b4-b07c-79904e521375", "loglik": [-3.8086, -5.0586, -1.1055, -0.4487], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 1048, "gold": "D", "item_id": "medmcqa-cb19c2ac-3ade-4f32-9a3f-64f3d6efd517", "loglik": [-7.0781, -1.5605, -2.7168, -0.3262], "pred": "D", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1174, "gold": "C", "item_id": "medmcqa-d2da473a-f6b7-4c15-a5e2-5a4b4bd1cc8f", "loglik": [-1.0732, -0.6982, -2.9785, -2.2129], "pred": "B", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1210, "gold": "B", "item_id": "medmcqa-f37b26c3-1be2-4ebd-8a21-a44172a0b092", "loglik": [-0.2213, -3.6582, -2.3613, -2.5645], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1417, "gold": "B", "item_id": "medmcqa-5917b59d-d9f8-4234-b0be-13f9c7325e9f", "loglik": [-0.2006, -3.8262, -1.9189, -4.3398], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 1436, "gold": "A", "item_id": "medmcqa-bd0ed5fa-d212-4dfc-bba3-9706fe6a228d", "loglik": [-0.54, -3.7754, -1.0088, -3.541], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1500, "gold": "B", "item_id": "medmcqa-a1baf5d0-1875-4f13-b283-9260bce5a476", "loglik": [-1.6045, -1.7764, -0.9795, -1.3701], "pred": "C", "subject": "Pathology"}
+{"correct": 1, "doc_id": 1598, "gold": "D", "item_id": "medmcqa-1579b75c-7804-45da-b317-eb16bac036be", "loglik": [-4.9922, -6.9297, -6.5859, -0.0095], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 1650, "gold": "A", "item_id": "medmcqa-2b85c83e-8fee-49cc-a779-c901db39290b", "loglik": [-0.6514, -1.7295, -1.792, -2.0098], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1653, "gold": "B", "item_id": "medmcqa-d339b10a-b196-4275-be32-cf575bb7f506", "loglik": [-4.3008, -2.9414, -2.5195, -0.1593], "pred": "D", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1820, "gold": "A", "item_id": "medmcqa-798a13b0-ae35-4eba-b72b-6c935926e452", "loglik": [-1.3916, -3.2031, -0.4226, -2.9062], "pred": "C", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1841, "gold": "C", "item_id": "medmcqa-2ff9fad7-263d-4611-a707-626809334f2c", "loglik": [-2.9902, -0.3501, -1.6318, -3.0215], "pred": "B", "subject": "Pathology"}
+{"correct": 1, "doc_id": 1907, "gold": "B", "item_id": "medmcqa-78a1bd5f-291f-4708-a187-40fd3bc901e2", "loglik": [-3.4473, -0.0727, -4.2305, -3.7598], "pred": "B", "subject": "Pathology"}
+{"correct": 0, "doc_id": 1949, "gold": "C", "item_id": "medmcqa-eb64ac60-ebb7-4851-8bbc-9251026bcbbc", "loglik": [-0.729, -2.7129, -0.9946, -2.5566], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 2073, "gold": "B", "item_id": "medmcqa-c0204a2d-5c44-448e-8e25-b5185ba64152", "loglik": [-1.3906, -4.2188, -0.4219, -2.5312], "pred": "C", "subject": "Pathology"}
+{"correct": 0, "doc_id": 2136, "gold": "B", "item_id": "medmcqa-03e82f18-dc4c-4005-b865-18e67f1114ff", "loglik": [-0.6167, -1.6641, -1.4141, -3.6016], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 2154, "gold": "B", "item_id": "medmcqa-4d93aaa2-b44e-4c76-9332-7110cc1cfa63", "loglik": [-6.5703, -5.5859, -0.0236, -4.0547], "pred": "C", "subject": "Pathology"}
+{"correct": 0, "doc_id": 2581, "gold": "B", "item_id": "medmcqa-e8e87fbd-58db-4141-a400-a8043e303add", "loglik": [-1.5576, -1.9639, -2.0117, -0.6826], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 2755, "gold": "D", "item_id": "medmcqa-2e82399f-9cef-4ba7-ae0e-9424c0efc321", "loglik": [-6.3711, -5.7695, -4.6289, -0.0358], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 2926, "gold": "B", "item_id": "medmcqa-aa928f6b-b194-44e7-ae8e-88a92c365fdc", "loglik": [-2.0293, -0.3569, -3.8418, -1.9189], "pred": "B", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3015, "gold": "B", "item_id": "medmcqa-44bb378d-cada-475a-88a0-1383d314bae0", "loglik": [-0.9434, -3.1621, -0.8965, -1.834], "pred": "C", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3236, "gold": "B", "item_id": "medmcqa-153520b6-6e0a-4180-9416-9a7417bc76f9", "loglik": [-1.3506, -1.3506, -1.8506, -1.1318], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 3370, "gold": "D", "item_id": "medmcqa-1fbd609b-f47b-451c-abbd-a33c4e0e96a6", "loglik": [-2.0664, -1.5361, -3.3633, -0.4734], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 3383, "gold": "B", "item_id": "medmcqa-bf77a9c9-3c08-43fc-8159-8f8509238024", "loglik": [-5.6016, -0.008, -6.5391, -6.1172], "pred": "B", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3459, "gold": "C", "item_id": "medmcqa-acfc14d7-1051-4939-9631-c1910b58c295", "loglik": [-0.3059, -2.0254, -2.8691, -2.6035], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3632, "gold": "B", "item_id": "medmcqa-5963ab9b-34a2-4d45-acc6-d7688d671080", "loglik": [-0.1011, -3.8516, -2.7422, -4.7578], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3715, "gold": "B", "item_id": "medmcqa-604c33c3-6037-47ea-8aea-36d87d3bc54e", "loglik": [-1.793, -1.3242, -0.5747, -5.4336], "pred": "C", "subject": "Pathology"}
+{"correct": 1, "doc_id": 3861, "gold": "C", "item_id": "medmcqa-b6833505-da89-49aa-91a8-5fd27d7333fe", "loglik": [-1.5752, -2.4043, -0.6064, -1.8564], "pred": "C", "subject": "Pathology"}
+{"correct": 1, "doc_id": 3956, "gold": "A", "item_id": "medmcqa-775ae087-72e3-45fb-9b1d-e4a74bddc1c1", "loglik": [-0.4417, -1.2695, -2.957, -3.7695], "pred": "A", "subject": "Pathology"}
+{"correct": 0, "doc_id": 3966, "gold": "D", "item_id": "medmcqa-b69ced59-82cc-43b7-b3b8-829f8ee8930b", "loglik": [-0.4468, -2.9785, -3.4316, -1.29], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 4002, "gold": "D", "item_id": "medmcqa-e4281c68-9e8b-4802-9c1d-edf0de6c7195", "loglik": [-1.2852, -2.3008, -1.6602, -0.8472], "pred": "D", "subject": "Pathology"}
+{"correct": 1, "doc_id": 4037, "gold": "D", "item_id": "medmcqa-2709dce6-0e84-4d28-a531-630df39e7298", "loglik": [-2.6016, -2.8672, -2.3516, -0.2581], "pred": "D", "subject": "Pathology"}
+{"correct": 0, "doc_id": 4043, "gold": "B", "item_id": "medmcqa-40013980-4b7a-4cc7-8c38-f2f45215bcbf", "loglik": [-1.6924, -3.1934, -2.1152, -0.427], "pred": "D", "subject": "Pathology"}
+{"correct": 0, "doc_id": 4104, "gold": "A", "item_id": "medmcqa-3fd3c12f-96c0-4fb6-b429-d421f52daf31", "loglik": [-0.9917, -0.7104, -3.3047, -2.3516], "pred": "B", "subject": "Pathology"}
+{"correct": 0, "doc_id": 4120, "gold": "C", "item_id": "medmcqa-cc7636ff-34f0-461b-beca-ec156ea6a355", "loglik": [-0.6416, -3.0781, -2.6562, -1.0322], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 4122, "gold": "B", "item_id": "medmcqa-b7b22c3c-d5fb-4be7-8da8-6e2df03be23a", "loglik": [-4.9414, -0.6582, -0.8926, -2.7363], "pred": "B", "subject": "Pathology"}
+{"correct": 1, "doc_id": 4152, "gold": "A", "item_id": "medmcqa-e50e85d8-896e-4500-a39a-8633831bcdfe", "loglik": [-0.5576, -2.291, -2.3535, -1.4795], "pred": "A", "subject": "Pathology"}
+{"correct": 1, "doc_id": 36, "gold": "B", "item_id": "medmcqa-26a782ca-42b0-441b-a24f-3a368f66727c", "loglik": [-2.9863, -0.6274, -1.5498, -1.5967], "pred": "B", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 166, "gold": "D", "item_id": "medmcqa-82f0f5d7-996b-49cc-8c8c-b9ff7cb35ecc", "loglik": [-2.3574, -6.3398, -0.107, -5.4648], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 283, "gold": "D", "item_id": "medmcqa-913d6913-f5de-41a9-8159-d7ac61d57c47", "loglik": [-5.543, -4.0273, -0.0273, -5.3398], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 581, "gold": "C", "item_id": "medmcqa-9572a3f9-b8a0-4fc4-96a1-cc0409721155", "loglik": [-0.1248, -2.7969, -3.3281, -3.9219], "pred": "A", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 738, "gold": "B", "item_id": "medmcqa-ca5cb321-54b4-4b5f-a507-0493c19af96f", "loglik": [-0.3918, -2.9551, -2.3926, -1.7354], "pred": "A", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 1186, "gold": "C", "item_id": "medmcqa-f31cf6f2-74fe-4d49-a8a7-ae85b1359d2b", "loglik": [-1.3252, -0.3567, -4.5586, -3.7949], "pred": "B", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 1187, "gold": "C", "item_id": "medmcqa-867140e4-9b9f-4784-b252-9720f89a385e", "loglik": [-3.1113, -0.1896, -2.8457, -2.7988], "pred": "B", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 1379, "gold": "D", "item_id": "medmcqa-5f5f1b55-68a6-4c77-a46a-97d7157a4adc", "loglik": [-1.8203, -2.2266, -1.3828, -0.7422], "pred": "D", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 1381, "gold": "B", "item_id": "medmcqa-277484ef-0832-433c-ba20-92a56041c894", "loglik": [-6.5742, -5.1836, -3.8887, -0.0284], "pred": "D", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 1428, "gold": "A", "item_id": "medmcqa-4282ea27-91a4-4cd7-9781-2958d3986552", "loglik": [-0.0399, -3.9297, -5.0078, -4.7109], "pred": "A", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 1514, "gold": "A", "item_id": "medmcqa-13c88190-2ea3-4939-87e3-5d4752552fcf", "loglik": [-2.7637, -5.0586, -0.0757, -5.9336], "pred": "C", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 1580, "gold": "C", "item_id": "medmcqa-cc50db92-b976-499e-b7ef-2d8c27458043", "loglik": [-1.7354, -1.2666, -0.7354, -2.7832], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 1622, "gold": "C", "item_id": "medmcqa-350d3b19-c8b4-4e99-b2a0-dc3f2bf4a206", "loglik": [-0.792, -1.9326, -1.4639, -1.7764], "pred": "A", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 1675, "gold": "B", "item_id": "medmcqa-6ea9c844-6c19-4b2a-81ff-b31837c44bd9", "loglik": [-3.2559, -0.1315, -3.6309, -2.8652], "pred": "B", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 1886, "gold": "C", "item_id": "medmcqa-5b53950b-3426-4836-9c2f-23735fecc6aa", "loglik": [-1.3896, -1.5615, -1.2959, -1.3271], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 2306, "gold": "B", "item_id": "medmcqa-27c7d7fa-8a10-4b19-9c70-36002caff287", "loglik": [-1.5039, -2.4102, -1.582, -0.7383], "pred": "D", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 2343, "gold": "C", "item_id": "medmcqa-d54441de-71d8-45b6-9a0a-b394581af745", "loglik": [-0.3025, -2.7871, -2.0215, -2.7246], "pred": "A", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 2357, "gold": "B", "item_id": "medmcqa-8fbfceaf-3af9-4b79-944f-643613173ac0", "loglik": [-1.5713, -0.9307, -2.1953, -1.2588], "pred": "B", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 2604, "gold": "B", "item_id": "medmcqa-cfd037d5-868e-49d9-89e8-a084e84ce0dc", "loglik": [-1.4688, -4.5781, -0.4688, -2.0625], "pred": "C", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 2700, "gold": "A", "item_id": "medmcqa-3754573b-da5e-4350-9604-2bff0e3a30b3", "loglik": [-0.0737, -3.2773, -4.9023, -3.7148], "pred": "A", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3267, "gold": "D", "item_id": "medmcqa-cd4a4452-2cfc-41d0-be4f-ab2c29778feb", "loglik": [-1.1289, -1.707, -0.9102, -2.3945], "pred": "C", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 3379, "gold": "C", "item_id": "medmcqa-3e661f15-9a34-4c14-b4ff-7bac9c57b6be", "loglik": [-3.6973, -2.916, -0.6812, -0.8843], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3409, "gold": "A", "item_id": "medmcqa-2097d24a-6816-485c-984d-90a5fbf2090e", "loglik": [-2.5469, -0.1561, -4.4375, -2.9844], "pred": "B", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3527, "gold": "A", "item_id": "medmcqa-8e64201e-6d6b-4187-98df-bb12e0945c78", "loglik": [-0.8076, -0.6514, -5.5273, -3.5898], "pred": "B", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3533, "gold": "B", "item_id": "medmcqa-21b1c2e4-dd6c-49c6-b432-ca5633eca31d", "loglik": [-1.249, -2.3574, -1.1084, -1.249], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3652, "gold": "C", "item_id": "medmcqa-66445905-f680-4952-8f35-71253c0c525d", "loglik": [-0.489, -1.5049, -2.7383, -2.3164], "pred": "A", "subject": "Pediatrics"}
+{"correct": 1, "doc_id": 3911, "gold": "C", "item_id": "medmcqa-d50419e1-2a30-4eee-bc64-d8ed11d958cb", "loglik": [-2.0977, -3.3008, -0.5361, -1.3799], "pred": "C", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 3930, "gold": "A", "item_id": "medmcqa-16533187-64d0-47f9-be71-dba4d56615fe", "loglik": [-1.9658, -1.8721, -2.7148, -0.4497], "pred": "D", "subject": "Pediatrics"}
+{"correct": 0, "doc_id": 132, "gold": "B", "item_id": "medmcqa-da27e783-4c0b-4621-bc3d-938a109d8425", "loglik": [-5.6133, -5.2383, -0.0206, -4.5039], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 151, "gold": "B", "item_id": "medmcqa-58ffad4a-5613-4d26-88b2-a4bb2ce2b9e6", "loglik": [-1.2129, -1.7285, -1.6035, -1.1348], "pred": "D", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 312, "gold": "D", "item_id": "medmcqa-6d426ea7-e119-4b5f-be99-1e36084c332c", "loglik": [-1.6094, -1.4844, -2.0781, -0.813], "pred": "D", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 612, "gold": "A", "item_id": "medmcqa-28b7a6ea-c657-4da7-81dc-88457a064655", "loglik": [-0.0898, -4.0117, -3.8242, -3.3555], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 980, "gold": "C", "item_id": "medmcqa-c2966f39-a3e7-464d-9048-937bf330c794", "loglik": [-2.0566, -1.6191, -0.7441, -1.6191], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 985, "gold": "B", "item_id": "medmcqa-407d4eec-cf0b-460c-bcdb-cf0081ec8c5d", "loglik": [-1.0654, -1.7373, -0.9404, -2.4258], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1106, "gold": "D", "item_id": "medmcqa-a97ea051-7425-4f6f-b909-c32f3801a91f", "loglik": [-0.9487, -2.0742, -1.293, -1.5586], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 1194, "gold": "C", "item_id": "medmcqa-8b2bc220-f5f6-4651-89b7-c38432303837", "loglik": [-4.3906, -6.2812, -0.0158, -6.7812], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1490, "gold": "B", "item_id": "medmcqa-9a901f04-8eb8-4e4f-a332-14cf2a3c70a3", "loglik": [-1.001, -2.9395, -2.002, -0.8135], "pred": "D", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1565, "gold": "B", "item_id": "medmcqa-6b4abfdd-bcd7-4f10-aa75-124aadf5fcd0", "loglik": [-1.0781, -1.6875, -1.9375, -1.1094], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 1646, "gold": "A", "item_id": "medmcqa-fade5c9e-4f2d-4cfd-90e3-99a69f09fbf9", "loglik": [-0.2047, -1.9707, -5.1562, -3.2363], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1674, "gold": "B", "item_id": "medmcqa-dc3b4878-5fcb-4cd0-b31d-594a5320655a", "loglik": [-0.3555, -4.418, -3.9805, -1.3398], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1751, "gold": "B", "item_id": "medmcqa-18ce280d-98c7-4a22-b4b7-038974b16c71", "loglik": [-2.0664, -1.7227, -0.8633, -1.3164], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1783, "gold": "A", "item_id": "medmcqa-28e47981-c859-48ad-a4b9-14a13c5b3a34", "loglik": [-3.9258, -1.6143, -0.645, -1.3643], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1784, "gold": "C", "item_id": "medmcqa-f62dcc6b-7c3b-4308-b33c-c48ce3947b79", "loglik": [-1.4102, -0.4888, -2.2695, -3.2695], "pred": "B", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 1796, "gold": "C", "item_id": "medmcqa-5d0bb1e6-fa95-47e6-811e-abeb5a025ce6", "loglik": [-0.522, -2.3652, -1.71, -2.0371], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 2011, "gold": "B", "item_id": "medmcqa-84b873f8-fb56-4767-8af8-8526e71bed62", "loglik": [-2.5918, -0.1381, -4.3867, -3.2012], "pred": "B", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 2169, "gold": "B", "item_id": "medmcqa-2d1e9927-b2bc-469b-a26f-49ff06d91fda", "loglik": [-1.0957, -2.3613, -0.6421, -3.1113], "pred": "C", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 2212, "gold": "C", "item_id": "medmcqa-c35aba8a-eb2e-44e5-8383-5b92cce06d2c", "loglik": [-1.4277, -2.8652, -0.4592, -2.6465], "pred": "C", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 2434, "gold": "B", "item_id": "medmcqa-de06c967-1c49-42ad-a5bb-ddaf1f0a9e59", "loglik": [-0.5923, -2.3574, -1.4355, -2.1699], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 2563, "gold": "B", "item_id": "medmcqa-20cbdec0-d488-4dcf-9630-2707c948390a", "loglik": [-0.1782, -2.6934, -2.4277, -5.0547], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 2662, "gold": "A", "item_id": "medmcqa-5e446222-7eea-4c61-9769-7b62fedae0b2", "loglik": [-0.7207, -3.0176, -4.2969, -0.7988], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 2681, "gold": "D", "item_id": "medmcqa-4fbd9ccb-2efb-4e4a-bcea-2db337a825ff", "loglik": [-0.7065, -2.8633, -5.7383, -0.8159], "pred": "A", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 2704, "gold": "B", "item_id": "medmcqa-e7c84e8c-d3a6-4bb4-bc34-ad35687338b2", "loglik": [-3.8203, -0.1011, -6.2266, -2.6484], "pred": "B", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 2994, "gold": "C", "item_id": "medmcqa-8e093537-c2ea-4af0-b5c0-d81dc23e190a", "loglik": [-4.9414, -6.1445, -0.1769, -1.8799], "pred": "C", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 3004, "gold": "A", "item_id": "medmcqa-a5e849d9-c662-4105-9637-5d870028c593", "loglik": [-0.7446, -3.1191, -4.3867, -0.7603], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 3300, "gold": "C", "item_id": "medmcqa-9e56e9b3-c4aa-44a9-ac78-e7aba802f443", "loglik": [-3.0312, -4.3125, -3.1719, -0.1101], "pred": "D", "subject": "Pharmacology"}
+{"correct": 1, "doc_id": 3378, "gold": "A", "item_id": "medmcqa-39aa0685-41e4-4701-acb9-88abe226e574", "loglik": [-0.2825, -2.2832, -2.252, -3.2676], "pred": "A", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 4046, "gold": "D", "item_id": "medmcqa-1d405e6b-5cd9-4ff7-ba6d-f7f748ad6050", "loglik": [-6.0938, -0.0462, -7.5, -3.1719], "pred": "B", "subject": "Pharmacology"}
+{"correct": 0, "doc_id": 102, "gold": "A", "item_id": "medmcqa-17d49a43-a8cf-43c9-9c9e-70a42e741af1", "loglik": [-1.7734, -0.2576, -3.9453, -3.3359], "pred": "B", "subject": "Physiology"}
+{"correct": 0, "doc_id": 345, "gold": "C", "item_id": "medmcqa-b9d0ecb7-910b-4740-a744-5e7fa0780a3e", "loglik": [-0.9233, -1.7979, -1.7354, -1.3447], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 383, "gold": "C", "item_id": "medmcqa-74d6497b-16bd-44f8-bba0-a9a139482e77", "loglik": [-1.2695, -0.5044, -3.1133, -2.6602], "pred": "B", "subject": "Physiology"}
+{"correct": 0, "doc_id": 601, "gold": "A", "item_id": "medmcqa-2767698c-2189-4770-a4fd-825b7b7edf9c", "loglik": [-1.376, -0.3606, -3.2676, -4.5], "pred": "B", "subject": "Physiology"}
+{"correct": 1, "doc_id": 1120, "gold": "A", "item_id": "medmcqa-9a3ac2a9-6d0f-4448-865c-e5bac449c1ec", "loglik": [-1.001, -1.1729, -2.2363, -1.5322], "pred": "A", "subject": "Physiology"}
+{"correct": 1, "doc_id": 1216, "gold": "A", "item_id": "medmcqa-3082bf7d-871f-4f5a-9235-63668503c2e5", "loglik": [-0.1495, -2.4004, -4.6172, -3.2754], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 1263, "gold": "D", "item_id": "medmcqa-4c6b43ff-d302-4bb0-b9b6-873cd50cb014", "loglik": [-5.8594, -3.6875, -0.0461, -4.1562], "pred": "C", "subject": "Physiology"}
+{"correct": 0, "doc_id": 1582, "gold": "B", "item_id": "medmcqa-63b5933b-8cd7-4320-b430-0cbf82644ec8", "loglik": [-0.2157, -1.8564, -5.6211, -3.4336], "pred": "A", "subject": "Physiology"}
+{"correct": 1, "doc_id": 1840, "gold": "C", "item_id": "medmcqa-56e99b61-7d98-4e09-aa8a-e267fa924351", "loglik": [-5.6055, -3.8574, -0.0445, -3.998], "pred": "C", "subject": "Physiology"}
+{"correct": 0, "doc_id": 1856, "gold": "B", "item_id": "medmcqa-261c602e-7e6f-4cf8-9231-13182b2db849", "loglik": [-1.1143, -2.4102, -1.1768, -1.3018], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2126, "gold": "B", "item_id": "medmcqa-108d98b3-bf9a-4d0b-92f0-3736950e4c20", "loglik": [-1.0713, -1.1182, -5.8672, -1.1182], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2479, "gold": "B", "item_id": "medmcqa-7c8d5c20-9868-406d-a987-2d8027acffa1", "loglik": [-0.6865, -1.499, -1.6865, -2.4355], "pred": "A", "subject": "Physiology"}
+{"correct": 1, "doc_id": 2761, "gold": "A", "item_id": "medmcqa-75ea3569-eb32-44a0-81dd-705aa50c2769", "loglik": [-0.0374, -4.1172, -5.5547, -4.1797], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2801, "gold": "D", "item_id": "medmcqa-4a406504-84b2-4e13-8bd3-c149c1c0e0eb", "loglik": [-0.8584, -1.5303, -3.5312, -1.124], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2836, "gold": "C", "item_id": "medmcqa-b4d9ead1-e3c7-446d-b49b-7e4dcbdada18", "loglik": [-1.251, -0.3914, -3.7656, -4.2656], "pred": "B", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2859, "gold": "A", "item_id": "medmcqa-31d2fae2-b491-4feb-b871-d889d9ac4efe", "loglik": [-1.3447, -2.9863, -3.1582, -0.4385], "pred": "D", "subject": "Physiology"}
+{"correct": 0, "doc_id": 2963, "gold": "C", "item_id": "medmcqa-38d19909-c427-44de-9fff-8b43342040ea", "loglik": [-0.9575, -2.4258, -1.2236, -1.458], "pred": "A", "subject": "Physiology"}
+{"correct": 0, "doc_id": 3241, "gold": "A", "item_id": "medmcqa-97d223c0-93ff-48c6-8cd4-3492c596b22b", "loglik": [-1.4482, -0.8389, -1.5576, -2.1055], "pred": "B", "subject": "Physiology"}
+{"correct": 1, "doc_id": 3599, "gold": "B", "item_id": "medmcqa-f8dab76a-a9f8-408d-ad30-fd8a5d1b74ab", "loglik": [-3.75, -0.14, -2.25, -6.5469], "pred": "B", "subject": "Physiology"}
+{"correct": 0, "doc_id": 3996, "gold": "C", "item_id": "medmcqa-64400a13-aab9-46fd-8609-ac725bb8e72e", "loglik": [-4.9844, -2.9375, -0.7974, -0.7192], "pred": "D", "subject": "Physiology"}
+{"correct": 0, "doc_id": 4056, "gold": "D", "item_id": "medmcqa-75037cd8-82e0-4544-b8b4-39b0c3c894e8", "loglik": [-1.5684, -0.646, -2.9121, -1.5527], "pred": "B", "subject": "Physiology"}
+{"correct": 1, "doc_id": 2956, "gold": "B", "item_id": "medmcqa-af75fc76-911b-48da-9ca0-75a8c912c18b", "loglik": [-2.916, -0.0722, -4.6328, -5.5547], "pred": "B", "subject": "Psychiatry"}
+{"correct": 1, "doc_id": 3306, "gold": "A", "item_id": "medmcqa-f361defb-1a36-496f-b195-9dcb6bb31ea5", "loglik": [-0.834, -1.3184, -1.2559, -4.3359], "pred": "A", "subject": "Psychiatry"}
+{"correct": 1, "doc_id": 429, "gold": "A", "item_id": "medmcqa-1730e3d6-7a73-4485-bc27-65e8ad61c9bb", "loglik": [-0.8516, -1.2734, -1.3359, -3.5078], "pred": "A", "subject": "Radiology"}
+{"correct": 1, "doc_id": 613, "gold": "B", "item_id": "medmcqa-f841125e-342d-4ad5-9138-4acd357f08c6", "loglik": [-3.0332, -0.1417, -3.002, -3.5332], "pred": "B", "subject": "Radiology"}
+{"correct": 0, "doc_id": 741, "gold": "A", "item_id": "medmcqa-74a4b01c-7f65-4cdf-a9c8-5b0d6989171e", "loglik": [-1.333, -0.8799, -1.4111, -2.582], "pred": "B", "subject": "Radiology"}
+{"correct": 0, "doc_id": 1669, "gold": "B", "item_id": "medmcqa-be51a97c-7791-4710-8fd5-87de14ec3c09", "loglik": [-1.0029, -1.7529, -0.9561, -2.5977], "pred": "C", "subject": "Radiology"}
+{"correct": 1, "doc_id": 2033, "gold": "D", "item_id": "medmcqa-5c97e587-2436-40b2-9f70-6f08a903d543", "loglik": [-1.6133, -2.1289, -1.1445, -1.0195], "pred": "D", "subject": "Radiology"}
+{"correct": 1, "doc_id": 2739, "gold": "A", "item_id": "medmcqa-479e5139-f840-4d95-b13b-d1a95e2ff3e4", "loglik": [-0.2114, -2.0234, -3.1328, -4.2734], "pred": "A", "subject": "Radiology"}
+{"correct": 1, "doc_id": 3010, "gold": "A", "item_id": "medmcqa-94f81251-43c1-4ba0-a67c-4f6412742774", "loglik": [-0.585, -1.3662, -1.8506, -3.5547], "pred": "A", "subject": "Radiology"}
+{"correct": 0, "doc_id": 4156, "gold": "B", "item_id": "medmcqa-63c52b21-f814-4a6d-ac11-a719fffebfd3", "loglik": [-1.0391, -3.1328, -1.2422, -1.1797], "pred": "A", "subject": "Radiology"}
+{"correct": 0, "doc_id": 1870, "gold": "D", "item_id": "medmcqa-ce7d3beb-17f5-416a-9584-6fdf807f4d99", "loglik": [-0.2976, -1.5791, -3.4375, -3.9844], "pred": "A", "subject": "Skin"}
+{"correct": 1, "doc_id": 1992, "gold": "C", "item_id": "medmcqa-8e12446e-b9b5-4152-8cc5-9ef959931a31", "loglik": [-3.1211, -1.542, -0.6362, -1.5576], "pred": "C", "subject": "Skin"}
+{"correct": 1, "doc_id": 412, "gold": "B", "item_id": "medmcqa-796e190d-09a8-4eef-98a4-26eecd5b7de7", "loglik": [-3.4531, -0.0634, -5.5625, -3.6875], "pred": "B", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 644, "gold": "A", "item_id": "medmcqa-2166e021-8b96-47ad-9e4d-fa55a623938b", "loglik": [-2.5625, -2.9844, -0.2646, -2.2656], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 1005, "gold": "A", "item_id": "medmcqa-1348a664-1ccc-422f-a083-91d77cb24b92", "loglik": [-0.9863, -1.6738, -0.9551, -2.9238], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 1, "doc_id": 1094, "gold": "B", "item_id": "medmcqa-ae3aa91a-4bfb-42a5-b8f6-7f8217e18fb0", "loglik": [-2.0859, -0.4924, -2.5234, -1.6953], "pred": "B", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 1703, "gold": "A", "item_id": "medmcqa-98e20d31-45bf-46c2-80cd-a9020dcaf014", "loglik": [-1.8975, -0.6318, -2.0391, -1.6787], "pred": "B", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 1994, "gold": "B", "item_id": "medmcqa-5dd40005-ebc1-4136-9b9b-70705d09e384", "loglik": [-2.7461, -1.4346, -0.4653, -2.668], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 2196, "gold": "B", "item_id": "medmcqa-91b8c11b-1fd3-40dc-9660-5756b52296ed", "loglik": [-1.4766, -3.9766, -5.7578, -0.2893], "pred": "D", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 2268, "gold": "A", "item_id": "medmcqa-b55fd5c5-4bb5-41d9-b78f-0932ac3854e6", "loglik": [-1.5713, -0.54, -2.8691, -1.8838], "pred": "B", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 2556, "gold": "D", "item_id": "medmcqa-5d7ae586-3ecd-41a4-a172-d32ab3dc4f6a", "loglik": [-0.6924, -1.8486, -1.3643, -2.457], "pred": "A", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 2850, "gold": "B", "item_id": "medmcqa-ac1196e0-224c-4c6c-a6b8-2853a776ade6", "loglik": [-1.0283, -2.9199, -1.5752, -0.9819], "pred": "D", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 2941, "gold": "A", "item_id": "medmcqa-24def2ac-27df-4d80-9792-fc5708a94153", "loglik": [-5.9727, -4.8008, -0.0505, -3.3164], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 1, "doc_id": 3329, "gold": "A", "item_id": "medmcqa-a95f4998-4d5f-43c4-ba66-78e1a1cb8b57", "loglik": [-0.2671, -4.2031, -1.6738, -3.4707], "pred": "A", "subject": "Social & Preventive Medicine"}
+{"correct": 0, "doc_id": 3439, "gold": "A", "item_id": "medmcqa-dc2afba7-fa3d-4e64-b1cf-8dbf31e96100", "loglik": [-5.2227, -0.1771, -2.9746, -2.2559], "pred": "B", "subject": "Social & Preventive Medicine"}
+{"correct": 1, "doc_id": 3460, "gold": "C", "item_id": "medmcqa-19f583db-3c59-4886-843c-c626faaf6c70", "loglik": [-1.2861, -3.5684, -0.708, -1.5986], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 1, "doc_id": 3551, "gold": "C", "item_id": "medmcqa-2dbbf01a-5a68-40c9-a24f-fd4af9d314e8", "loglik": [-3.0176, -1.1738, -0.6113, -2.3145], "pred": "C", "subject": "Social & Preventive Medicine"}
+{"correct": 1, "doc_id": 125, "gold": "A", "item_id": "medmcqa-fa39f24e-b6bf-43e6-8c00-8b1b5caf8c90", "loglik": [-0.1578, -3.252, -4.3906, -2.7676], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 159, "gold": "D", "item_id": "medmcqa-e28c04ac-2003-4fa1-8b5c-7f36776cfa8a", "loglik": [-1.499, -1.499, -1.7803, -0.9678], "pred": "D", "subject": "Surgery"}
+{"correct": 0, "doc_id": 452, "gold": "B", "item_id": "medmcqa-f7d9f997-d9d6-40e0-a921-49bb343f8b52", "loglik": [-0.9009, -1.4473, -2.0879, -1.4629], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 533, "gold": "A", "item_id": "medmcqa-b304b0be-c800-43e4-be04-739bd0cc47fd", "loglik": [-1.0508, -1.957, -1.2852, -1.4727], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 714, "gold": "B", "item_id": "medmcqa-dcf755f4-a047-4777-b656-544752fb83d7", "loglik": [-0.522, -1.334, -3.2715, -2.2559], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 790, "gold": "B", "item_id": "medmcqa-1f253e11-f50e-40f8-a36a-16101d47d319", "loglik": [-2.1406, -1.0635, -0.7661, -2.6406], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 875, "gold": "A", "item_id": "medmcqa-36b43626-f928-486f-b724-abecea127f62", "loglik": [-0.9722, -2.6602, -0.9409, -1.832], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 890, "gold": "C", "item_id": "medmcqa-13ea1b71-7d4f-4dec-babf-485274305ed8", "loglik": [-2.0215, -2.5059, -2.2871, -0.3813], "pred": "D", "subject": "Surgery"}
+{"correct": 0, "doc_id": 929, "gold": "A", "item_id": "medmcqa-fa7ee43b-5ca6-4b65-a72d-9bafd53b25df", "loglik": [-2.0352, -3.6758, -0.4878, -1.4717], "pred": "C", "subject": "Surgery"}
+{"correct": 1, "doc_id": 974, "gold": "A", "item_id": "medmcqa-42dbf12f-7a02-4df7-85b2-e8e2b8638f9b", "loglik": [-0.2976, -2.4375, -1.876, -4.1094], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 1032, "gold": "C", "item_id": "medmcqa-c4dcbe78-cfc2-4499-a2f1-73e18d4e8cab", "loglik": [-3.3223, -1.2139, -0.9482, -1.2764], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 1409, "gold": "D", "item_id": "medmcqa-cc9a8448-c6e4-4a67-b2b5-153205840089", "loglik": [-0.1837, -4.1367, -4.3086, -1.9805], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 1492, "gold": "D", "item_id": "medmcqa-f9b6bce4-d7b0-4828-8574-8bbabd89fdad", "loglik": [-1.793, -2.293, -2.6367, -0.4182], "pred": "D", "subject": "Surgery"}
+{"correct": 0, "doc_id": 1566, "gold": "D", "item_id": "medmcqa-c752cb28-bcb7-4bf3-bf67-9387d7d931c8", "loglik": [-2.9023, -0.4187, -2.5117, -1.5908], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 1665, "gold": "B", "item_id": "medmcqa-a28af149-bf4b-4c9a-a4bf-5f6387f945e9", "loglik": [-1.332, -2.7383, -1.0352, -1.1602], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 1921, "gold": "C", "item_id": "medmcqa-825c94ac-5f3a-4ea3-a8dd-02f5ae83f7a3", "loglik": [-1.793, -0.5117, -1.4648, -6.3711], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 1930, "gold": "D", "item_id": "medmcqa-dcb2ad3a-cefa-4fde-9b24-b694b287f9d7", "loglik": [-1.1621, -1.0059, -1.9121, -1.7559], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2106, "gold": "D", "item_id": "medmcqa-baba5fba-6965-463e-af76-ad1192248260", "loglik": [-2.1309, -0.96, -1.8662, -1.0693], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2179, "gold": "C", "item_id": "medmcqa-65491c14-e081-4a90-94be-d0db9ef0325f", "loglik": [-3.1699, -3.1543, -2.5293, -0.1853], "pred": "D", "subject": "Surgery"}
+{"correct": 1, "doc_id": 2205, "gold": "C", "item_id": "medmcqa-dc918205-fb3a-42a9-805e-ec2c3e1c7352", "loglik": [-1.209, -1.7871, -0.6621, -4.0508], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2259, "gold": "B", "item_id": "medmcqa-3c0e960b-7757-45aa-a7e9-98c238eed3e7", "loglik": [-0.4937, -1.5879, -1.7598, -4.3672], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2321, "gold": "B", "item_id": "medmcqa-22e9f959-2d98-46de-b35c-601974f8d014", "loglik": [-3.0312, -2.25, -2.0781, -0.3289], "pred": "D", "subject": "Surgery"}
+{"correct": 1, "doc_id": 2532, "gold": "A", "item_id": "medmcqa-44ff9d66-1271-48ec-80e0-51f38a47c976", "loglik": [-0.6255, -5.1094, -2.8281, -0.9224], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2569, "gold": "C", "item_id": "medmcqa-d4a07671-8036-4d23-9aed-b13b7e8b99b5", "loglik": [-2.9531, -0.7808, -0.937, -2.3594], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2643, "gold": "D", "item_id": "medmcqa-eee44fc5-ad97-4eaa-9720-02f6096eece5", "loglik": [-0.3779, -1.6904, -2.707, -2.7695], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2766, "gold": "C", "item_id": "medmcqa-8e0eacd3-9755-426d-b1c5-2bff71295f88", "loglik": [-2.5996, -1.334, -1.1309, -1.084], "pred": "D", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2835, "gold": "D", "item_id": "medmcqa-4a911d25-db46-4f7f-851b-6e2ffa30d8b3", "loglik": [-1.2715, -2.3184, -0.6309, -2.4277], "pred": "C", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2846, "gold": "C", "item_id": "medmcqa-959f8a7b-ea3c-40f9-a6a3-f90248f7e8d2", "loglik": [-0.6533, -1.8721, -1.1377, -5.4023], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 2869, "gold": "A", "item_id": "medmcqa-7ac6c505-a563-4d72-a4c7-8c9681df35b0", "loglik": [-0.9316, -2.166, -1.6973, -1.1816], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 2981, "gold": "A", "item_id": "medmcqa-5eb813a6-a84e-4b34-ae56-80e38f5a44b5", "loglik": [-0.1137, -4.7539, -2.332, -7.0039], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 2989, "gold": "D", "item_id": "medmcqa-ebb422b3-9745-4b38-8192-4557d6bcf595", "loglik": [-0.9077, -0.8296, -4.6562, -1.9082], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3001, "gold": "C", "item_id": "medmcqa-35b7ba5c-3e71-46c8-9df4-ed3b2a17f3b9", "loglik": [-0.4797, -3.9336, -1.2607, -2.5586], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3123, "gold": "C", "item_id": "medmcqa-4f4aa2a7-2a48-4be3-bbe5-83055990a05e", "loglik": [-0.1879, -2.6562, -3.1562, -2.8594], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 3127, "gold": "D", "item_id": "medmcqa-1821da63-79b6-4ad9-bae2-f3565b857f97", "loglik": [-5.5508, -3.9414, -5.332, -0.0355], "pred": "D", "subject": "Surgery"}
+{"correct": 1, "doc_id": 3233, "gold": "A", "item_id": "medmcqa-4cd9cf13-3bf7-438a-ae19-02288af1e943", "loglik": [-0.9087, -1.3926, -2.6582, -1.2832], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 3261, "gold": "D", "item_id": "medmcqa-9f529003-8d44-442b-8dfc-f839e7f96a72", "loglik": [-1.4434, -2.2871, -1.6465, -0.7715], "pred": "D", "subject": "Surgery"}
+{"correct": 1, "doc_id": 3347, "gold": "A", "item_id": "medmcqa-90d38496-3baf-4df8-a4ce-5210d0dbfa0f", "loglik": [-0.584, -1.2402, -3.8184, -2.0371], "pred": "A", "subject": "Surgery"}
+{"correct": 1, "doc_id": 3635, "gold": "D", "item_id": "medmcqa-0864d31c-bba4-4d83-8870-89f1d171f705", "loglik": [-1.8369, -2.6953, -1.915, -0.4771], "pred": "D", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3682, "gold": "D", "item_id": "medmcqa-654fde52-e652-4c4f-bea9-1280218d5895", "loglik": [-0.665, -1.7275, -1.5713, -2.3066], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3938, "gold": "D", "item_id": "medmcqa-90e1de32-990e-4ebe-8e95-4934cd98e601", "loglik": [-0.1245, -4.9062, -2.8438, -2.9844], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3948, "gold": "A", "item_id": "medmcqa-82e2995c-8c88-47f9-b3d4-bcf04355a688", "loglik": [-2.8867, -0.3872, -1.6211, -2.6992], "pred": "B", "subject": "Surgery"}
+{"correct": 0, "doc_id": 3955, "gold": "D", "item_id": "medmcqa-a3912f88-1e01-46ed-9f13-544c1a36fbb5", "loglik": [-0.4993, -2.3438, -2.375, -1.5928], "pred": "A", "subject": "Surgery"}
+{"correct": 0, "doc_id": 4022, "gold": "C", "item_id": "medmcqa-395a115c-ac63-49db-8cca-eaef6396794a", "loglik": [-1.2998, -0.7686, -2.2227, -1.8779], "pred": "B", "subject": "Surgery"}
+{"correct": 1, "doc_id": 4073, "gold": "A", "item_id": "medmcqa-80d3c4e2-26a3-46c1-9e01-9f898b93708b", "loglik": [-0.3274, -4.4375, -1.624, -2.6719], "pred": "A", "subject": "Surgery"}

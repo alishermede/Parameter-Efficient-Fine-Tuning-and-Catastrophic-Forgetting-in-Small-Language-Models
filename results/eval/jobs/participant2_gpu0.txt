@@ -1,0 +1,11 @@
+q25-05b_full_MLC_s1 stage0
+q25-05b_full_MLC_s1 stage2_casehold_100
+q25-05b_full_MLC_s2 stage1_medmcqa_100
+q25-05b_full_MLC_s2 stage3_code_100
+q25-05b_full_MLC_s3 stage2_casehold_100
+q25-05b_lora_MLC_s1 stage1_medmcqa_100
+q25-05b_lora_MLC_s1 stage3_code_100
+q25-05b_lora_MLC_s2 stage1_medmcqa_075
+q25-05b_lora_MLC_s2 stage3_code_100
+q25-05b_lora_MLC_s3 stage1_medmcqa_025
+q25-05b_lora_MLC_s3 stage3_code_100

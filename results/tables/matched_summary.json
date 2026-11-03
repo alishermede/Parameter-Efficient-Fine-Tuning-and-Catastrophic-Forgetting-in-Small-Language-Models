@@ -1,0 +1,31 @@
+{
+  "rule": "T = min over methods of seed-mean final Stage-1 MedMCQA-dev acc; per run the Stage-1 checkpoint closest to T; ties -> later checkpoint; testable if every method's seed-mean matched dev acc is within +-3.0 pp of T",
+  "final_stage1_dev_acc_mean": {
+    "full": 0.42,
+    "lora": 0.455,
+    "adapter": 0.463333
+  },
+  "T": 0.42,
+  "T_method": "full",
+  "per_method": {
+    "full": {
+      "mean_matched_dev_acc": 0.42,
+      "abs_diff_pp": 0.0,
+      "within_tol": true,
+      "max_run_diff_pp": 1.0
+    },
+    "lora": {
+      "mean_matched_dev_acc": 0.43,
+      "abs_diff_pp": 1.0,
+      "within_tol": true,
+      "max_run_diff_pp": 4.0
+    },
+    "adapter": {
+      "mean_matched_dev_acc": 0.44,
+      "abs_diff_pp": 2.0,
+      "within_tol": true,
+      "max_run_diff_pp": 4.0
+    }
+  },
+  "h2_testable": true
+}
