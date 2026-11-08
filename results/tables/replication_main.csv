@@ -1,0 +1,5 @@
+condition,MedMCQA,CaseHOLD,MBPP,MMLU_S3,MMLU_F3_pp,MMLU_R3_pct,GSM8K_S3,GSM8K_F3_pp,GSM8K_R3_pct,GSM8K_strict_S3
+No adaptation (Stage 0),35.8,44.8,39.2,54.13,0.0,100.0,50.0,0.0,100.0,48.2
+Full fine-tuning,34.0,75.2,32.6,39.68,14.44,73.31,29.6,20.4,59.2,14.0
+LoRA,39.2,73.2,39.6,50.48,3.65,93.26,43.4,6.6,86.8,28.2
+Bottleneck adapter,39.4,70.4,37.8,54.05,0.08,99.85,47.0,3.0,94.0,41.2

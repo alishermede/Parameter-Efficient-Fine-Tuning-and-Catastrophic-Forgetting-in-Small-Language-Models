@@ -1,0 +1,4 @@
+method,checkpoint,MMLU,MMLU_retention_pct
+full,stage1_medmcqa_100,53.89,99.56
+lora,stage1_medmcqa_050,54.37,100.44
+adapter,stage1_medmcqa_100,52.62,97.21
