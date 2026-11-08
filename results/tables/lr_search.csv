@@ -1,0 +1,10 @@
+method,lr,medmcqa_dev_acc,casehold_dev_acc,code_dev_loss,selected
+full,1e-05,0.435,0.305,0.637178,False
+full,2e-05,0.44,0.27,0.709813,True
+full,5e-05,0.375,0.26,0.871623,False
+lora,0.0001,0.455,0.27,0.588564,False
+lora,0.0002,0.46,0.285,0.601836,True
+lora,0.0005,0.435,0.28,0.655596,False
+adapter,0.0001,0.46,0.26,0.599171,False
+adapter,0.0003,0.47,0.25,0.635479,True
+adapter,0.001,0.45,0.245,0.846202,False
