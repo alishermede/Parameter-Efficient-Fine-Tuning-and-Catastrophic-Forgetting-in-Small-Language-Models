@@ -14,7 +14,7 @@ Each run adapts one base model with one method through three domains in sequence
 | Retention | MMLU (1,260 questions, 42 non-overlapping subjects), GSM8K (500 problems) — evaluated with lm-evaluation-harness (`src/eval.py`) |
 | Hardware | one NVIDIA T4 (Kaggle), fp16 mixed precision |
 
-**Report.** The submitted report is `docs/Assignment4_Report.docx`; deviations from the frozen protocol are logged in `docs/deviations.md`.
+**Report.** The submitted report is `docs/Assignment4_Report.docx`. The Protocol Freeze form exactly as uploaded to Moodle on 2 November 2026, 03:38 (UTC+5) is `docs/Appendix_A_Protocol_Freeze.docx`; deviations from it are logged in `docs/deviations.md`.
 
 ## Repository structure
 
