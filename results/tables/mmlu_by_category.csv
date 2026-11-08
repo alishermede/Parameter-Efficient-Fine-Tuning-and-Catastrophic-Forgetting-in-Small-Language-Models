@@ -1,4 +1,11 @@
 method,category,score_mean,score_sd,n_seeds,forgetting_pp,n_items
+adapter,humanities,48.7778,0.5092,3,1.8889,300
+adapter,other,53.1481,1.3981,3,-5.9259,180
+adapter,overlap_humanities,48.5185,4.4905,3,1.4815,90
+adapter,overlap_other,47.4603,0.9913,3,0.1587,210
+adapter,overlap_stem,49.1111,2.5240,3,2.8889,150
+adapter,social_sciences,52.4074,0.6991,3,1.7593,360
+adapter,stem,44.4444,1.5121,3,2.4603,420
 base,humanities,50.6667,,1,0.0000,300
 base,other,47.2222,,1,0.0000,180
 base,overlap_humanities,50.0000,,1,0.0000,90

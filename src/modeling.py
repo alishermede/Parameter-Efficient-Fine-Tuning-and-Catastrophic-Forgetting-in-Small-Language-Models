@@ -212,6 +212,7 @@ def load_checkpoint(ckpt_dir: str | Path, device: str | None = None, dtype=torch
             adapters.init(model)
             name = model.load_adapter(str(ckpt), load_as="domain", set_active=True)
             model.set_active_adapters(name)
+            model.to(dtype)  # adapter weights load as fp32; match the base dtype
         elif method == "base":
             pass
         else:

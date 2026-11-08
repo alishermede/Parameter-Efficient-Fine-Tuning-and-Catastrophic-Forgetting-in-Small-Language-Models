@@ -1,0 +1,7 @@
+benchmark,comparison,dF3_pp,ci_lo,ci_hi,p_boot,p_holm
+mmlu_primary,lora - full,-10.7937,-13.4127,-8.1746,0.0001,0.0003
+mmlu_primary,adapter - full,-14.3651,-17.3016,-11.4286,0.0001,0.0003
+mmlu_primary,lora - adapter,3.5714,1.5873,5.5575,0.001,0.001
+gsm8k,lora - full,-13.8,-18.2,-9.4,0.0001,0.0003
+gsm8k,adapter - full,-17.4,-21.8,-13.0,0.0001,0.0003
+gsm8k,lora - adapter,3.6,-0.4,7.6,0.0928,0.0928
