@@ -1,0 +1,54 @@
+{
+  "scores": {
+    "mmlu_primary": {
+      "n": 1260,
+      "score": 0.5436507936507936
+    },
+    "mmlu_overlap": {
+      "n": 450,
+      "score": 0.5133333333333333
+    },
+    "medmcqa": {
+      "n": 500,
+      "score": 0.36
+    },
+    "casehold": {
+      "n": 500,
+      "score": 0.434
+    },
+    "gsm8k": {
+      "n": 500,
+      "score": 0.442,
+      "score_strict": 0.436
+    },
+    "mbpp": {
+      "n": 500,
+      "score": 0.392
+    }
+  },
+  "checkpoint_meta": {
+    "method": "lora",
+    "base_model": "Qwen/Qwen3-0.6B-Base",
+    "base_revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "run_id": "q3-06b_lora_MLC_s1",
+    "seed": 1,
+    "lr": 0.0002,
+    "order": [
+      "medmcqa",
+      "casehold",
+      "code"
+    ],
+    "stage": 1,
+    "domain": "medmcqa",
+    "step": 125,
+    "fraction": 0.5
+  },
+  "run_id": "q3-06b_lora_MLC_s1",
+  "checkpoint": "stage1_medmcqa_050",
+  "finished_utc": "2026-11-07T15:58:50Z",
+  "sanity": {
+    "logits_finite": true,
+    "probe_next_token": " Paris"
+  },
+  "note": "rebuilt from Kaggle output (correctness only; responses/logliks in eval_results.zip)"
+}

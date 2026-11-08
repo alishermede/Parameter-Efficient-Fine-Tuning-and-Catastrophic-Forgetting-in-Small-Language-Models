@@ -9,13 +9,22 @@ Source tables are in `results/tables/`. Means ± SD over 3 seeds; ΔF = F_A − 
 | No adaptation (Stage 0) | 0 | 36.6 | 31.6 | 30.2 | 49.9 | 0 | 35.0 | 0 |
 | Full fine-tuning | 494.0 M (100.00%) | 31.0 ± 0.3 | 71.1 ± 2.3 | 23.8 ± 0.5 | 36.7 ± 0.7 | 13.2 ± 0.7 | 17.9 ± 0.8 | 17.1 ± 0.8 |
 | LoRA | 8.8 M (1.75%) | 37.3 ± 0.7 | 69.7 ± 0.6 | 30.2 ± 0.8 | 46.5 ± 0.6 | 3.4 ± 0.6 | 32.7 ± 1.3 | 2.3 ± 1.3 |
+| Bottleneck adapter | 8.8 M (1.75%) | 36.6 ± 1.0 | 61.9 ± 1.8 | 28.7 ± 1.2 | 49.0 ± 0.3 | 0.9 ± 0.3 | 28.5 ± 0.6 | 6.5 ± 0.6 |
 
 ## Pairwise tests — pairwise_tests.csv
 
-- **mmlu_primary, lora - full**: F_a = 3.44 pp, F_b = 13.23 pp, ΔF3 = -9.79 pp (95% CI -12.12 to -7.43), p = 0.0002, Holm p = 0.0002; relative reduction 74.0%; per seed -10.95, -8.73, -9.68; exploratory paired t (n=3): t = -15.21, p = 0.004  [primary (H1)]
-- **gsm8k, lora - full**: F_a = 2.33 pp, F_b = 17.07 pp, ΔF3 = -14.73 pp (95% CI -17.93 to -11.47), p = 0.0002, Holm p = 0.0002; relative reduction 86.3%; per seed -13.00, -15.20, -16.00; exploratory paired t (n=3): t = -16.43, p = 0.004  [primary (H1)]
-- **gsm8k_strict, lora - full**: F_a = 19.40 pp, F_b = 33.60 pp, ΔF3 = -14.20 pp (95% CI -16.67 to -11.80), p = 0.0002, Holm p = 0.0002; relative reduction 42.3%; per seed -14.80, -13.00, -14.80; exploratory paired t (n=3): t = -23.67, p = 0.002  [secondary (exploratory)]
-- **mmlu_overlap, lora - full**: F_a = 3.93 pp, F_b = 10.37 pp, ΔF3 = -6.44 pp (95% CI -10.07 to -2.89), p = 0.0008, Holm p = 0.0008; relative reduction 62.1%; per seed -4.44, -7.33, -7.56; exploratory paired t (n=3): t = -6.43, p = 0.023  [secondary (exploratory)]
+- **mmlu_primary, lora - full**: F_a = 3.44 pp, F_b = 13.23 pp, ΔF3 = -9.79 pp (95% CI -12.12 to -7.43), p = 0.0002, Holm p = 0.0006; relative reduction 74.0%; per seed -10.95, -8.73, -9.68; exploratory paired t (n=3): t = -15.21, p = 0.004  [primary (H1)]
+- **mmlu_primary, adapter - full**: F_a = 0.93 pp, F_b = 13.23 pp, ΔF3 = -12.30 pp (95% CI -14.84 to -9.79), p = 0.0002, Holm p = 0.0006; relative reduction 93.0%; per seed -13.41, -11.75, -11.75; exploratory paired t (n=3): t = -22.14, p = 0.002  [primary (H1)]
+- **mmlu_primary, lora - adapter**: F_a = 3.44 pp, F_b = 0.93 pp, ΔF3 = +2.51 pp (95% CI +1.03 to +3.97), p = 0.0010, Holm p = 0.0010; relative reduction -271.4%; per seed +2.46, +3.02, +2.06; exploratory paired t (n=3): t = 9.10, p = 0.012  [primary (H1)]
+- **gsm8k, lora - full**: F_a = 2.33 pp, F_b = 17.07 pp, ΔF3 = -14.73 pp (95% CI -17.93 to -11.47), p = 0.0002, Holm p = 0.0006; relative reduction 86.3%; per seed -13.00, -15.20, -16.00; exploratory paired t (n=3): t = -16.43, p = 0.004  [primary (H1)]
+- **gsm8k, adapter - full**: F_a = 6.47 pp, F_b = 17.07 pp, ΔF3 = -10.60 pp (95% CI -13.60 to -7.60), p = 0.0002, Holm p = 0.0006; relative reduction 62.1%; per seed -11.00, -9.80, -11.00; exploratory paired t (n=3): t = -26.50, p = 0.001  [primary (H1)]
+- **gsm8k, lora - adapter**: F_a = 2.33 pp, F_b = 6.47 pp, ΔF3 = -4.13 pp (95% CI -6.87 to -1.47), p = 0.0022, Holm p = 0.0022; relative reduction 63.9%; per seed -2.00, -5.40, -5.00; exploratory paired t (n=3): t = -3.85, p = 0.061  [primary (H1)]
+- **gsm8k_strict, lora - full**: F_a = 19.40 pp, F_b = 33.60 pp, ΔF3 = -14.20 pp (95% CI -16.67 to -11.80), p = 0.0002, Holm p = 0.0006; relative reduction 42.3%; per seed -14.80, -13.00, -14.80; exploratory paired t (n=3): t = -23.67, p = 0.002  [secondary (exploratory)]
+- **gsm8k_strict, adapter - full**: F_a = 27.20 pp, F_b = 33.60 pp, ΔF3 = -6.40 pp (95% CI -8.00 to -4.93), p = 0.0002, Holm p = 0.0006; relative reduction 19.0%; per seed -10.80, -3.80, -4.60; exploratory paired t (n=3): t = -2.89, p = 0.102  [secondary (exploratory)]
+- **gsm8k_strict, lora - adapter**: F_a = 19.40 pp, F_b = 27.20 pp, ΔF3 = -7.80 pp (95% CI -9.93 to -5.67), p = 0.0002, Holm p = 0.0006; relative reduction 28.7%; per seed -4.00, -9.20, -10.20; exploratory paired t (n=3): t = -4.06, p = 0.056  [secondary (exploratory)]
+- **mmlu_overlap, lora - full**: F_a = 3.93 pp, F_b = 10.37 pp, ΔF3 = -6.44 pp (95% CI -10.07 to -2.89), p = 0.0008, Holm p = 0.0016; relative reduction 62.1%; per seed -4.44, -7.33, -7.56; exploratory paired t (n=3): t = -6.43, p = 0.023  [secondary (exploratory)]
+- **mmlu_overlap, adapter - full**: F_a = 1.33 pp, F_b = 10.37 pp, ΔF3 = -9.04 pp (95% CI -13.11 to -5.04), p = 0.0002, Holm p = 0.0006; relative reduction 87.1%; per seed -5.11, -12.67, -9.33; exploratory paired t (n=3): t = -4.13, p = 0.054  [secondary (exploratory)]
+- **mmlu_overlap, lora - adapter**: F_a = 3.93 pp, F_b = 1.33 pp, ΔF3 = +2.59 pp (95% CI +0.37 to +4.81), p = 0.0254, Holm p = 0.0254; relative reduction -194.4%; per seed +0.67, +5.33, +1.78; exploratory paired t (n=3): t = 1.84, p = 0.207  [secondary (exploratory)]
 
 ## Matched checkpoint (H2) — matched_summary.json, h2_tests.csv
 
@@ -23,10 +32,13 @@ T = 42.0% (MedMCQA-dev, full); testable: True
 - full: seed-mean matched dev acc 42.0% (|diff| 0.0 pp)
 - lora: seed-mean matched dev acc 43.0% (|diff| 1.0 pp)
 - adapter: seed-mean matched dev acc 44.0% (|diff| 2.0 pp)
+- **lora - adapter**: R_a = 98.5%, R_b = 97.1%, ΔR = +1.32 pp (95% CI -0.86 to +3.53), Holm p = 0.2484
+- **lora - full**: R_a = 98.5%, R_b = 92.6%, ΔR = +5.88 pp (95% CI +2.89 to +8.84), Holm p = 0.0004
 
 ## Hypotheses — hypotheses.csv
 
-- **H1: PRELIMINARY (lora only): Partly supported** — lora-FFT mmlu_primary: ΔF3 = -9.79 pp [-12.12, -7.43], p_Holm = 0.0002, same sign in all seeds: yes | lora-FFT gsm8k: ΔF3 = -14.73 pp [-17.93, -11.47], p_Holm = 0.0002, same sign in all seeds: yes
+- **H1: Supported** — lora-FFT mmlu_primary: ΔF3 = -9.79 pp [-12.12, -7.43], p_Holm = 0.0006, same sign in all seeds: yes | lora-FFT gsm8k: ΔF3 = -14.73 pp [-17.93, -11.47], p_Holm = 0.0006, same sign in all seeds: yes | adapter-FFT mmlu_primary: ΔF3 = -12.30 pp [-14.84, -9.79], p_Holm = 0.0006, same sign in all seeds: yes | adapter-FFT gsm8k: ΔF3 = -10.60 pp [-13.60, -7.60], p_Holm = 0.0006, same sign in all seeds: yes
+- **H2: Partly supported** — lora - adapter MMLU retention: +1.32 pp [-0.86, +3.53], p_Holm = 0.248 | lora - full MMLU retention: +5.88 pp [+2.89, +8.84], p_Holm = 0.0004
 
 ## Trajectories (MMLU primary, GSM8K) — trajectories.csv
 
@@ -38,6 +50,10 @@ T = 42.0% (MedMCQA-dev, full); testable: True
 - mmlu_primary lora stage 1: S = 49.4 ± 0.3, F = 0.53 ± 0.32 pp, R = 98.9 ± 0.6%
 - mmlu_primary lora stage 2: S = 43.9 ± 0.5, F = 6.03 ± 0.50 pp, R = 87.9 ± 1.0%
 - mmlu_primary lora stage 3: S = 46.5 ± 0.6, F = 3.44 ± 0.60 pp, R = 93.1 ± 1.2%
+- mmlu_primary adapter stage 0: S = 49.9 ± 0.0, F = 0.00 ± 0.00 pp, R = 100.0 ± 0.0%
+- mmlu_primary adapter stage 1: S = 48.6 ± 0.8, F = 1.35 ± 0.84 pp, R = 97.3 ± 1.7%
+- mmlu_primary adapter stage 2: S = 41.7 ± 0.7, F = 8.23 ± 0.66 pp, R = 83.5 ± 1.3%
+- mmlu_primary adapter stage 3: S = 49.0 ± 0.3, F = 0.93 ± 0.26 pp, R = 98.1 ± 0.5%
 - gsm8k full stage 0: S = 35.0 ± 0.0, F = 0.00 ± 0.00 pp, R = 100.0 ± 0.0%
 - gsm8k full stage 1: S = 30.9 ± 0.8, F = 4.13 ± 0.81 pp, R = 88.2 ± 2.3%
 - gsm8k full stage 2: S = 2.8 ± 1.2, F = 32.20 ± 1.22 pp, R = 8.0 ± 3.5%
@@ -46,3 +62,7 @@ T = 42.0% (MedMCQA-dev, full); testable: True
 - gsm8k lora stage 1: S = 31.7 ± 1.3, F = 3.33 ± 1.30 pp, R = 90.5 ± 3.7%
 - gsm8k lora stage 2: S = 16.8 ± 3.9, F = 18.20 ± 3.86 pp, R = 48.0 ± 11.0%
 - gsm8k lora stage 3: S = 32.7 ± 1.3, F = 2.33 ± 1.33 pp, R = 93.3 ± 3.8%
+- gsm8k adapter stage 0: S = 35.0 ± 0.0, F = 0.00 ± 0.00 pp, R = 100.0 ± 0.0%
+- gsm8k adapter stage 1: S = 24.6 ± 1.2, F = 10.40 ± 1.22 pp, R = 70.3 ± 3.5%
+- gsm8k adapter stage 2: S = 2.8 ± 0.2, F = 32.20 ± 0.20 pp, R = 8.0 ± 0.6%
+- gsm8k adapter stage 3: S = 28.5 ± 0.6, F = 6.47 ± 0.61 pp, R = 81.5 ± 1.7%
