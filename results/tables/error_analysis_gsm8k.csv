@@ -1,0 +1,61 @@
+method,item_id,gold,pred,category,has_final_answer_line,note
+full,gsm8k-test-11,694,718,AS,0,3*68 computed as 228
+full,gsm8k-test-16,230,150,WRS,0,
+full,gsm8k-test-18,7,2,WRS,0,
+full,gsm8k-test-25,2,2.00,AFL,0,"correct value written as 2.00, no #### line"
+full,gsm8k-test-27,16,240,WRS,0,
+full,gsm8k-test-33,70,40,IRG,0,
+full,gsm8k-test-34,23,20.5,WRS,0,
+full,gsm8k-test-42,26,14.,WRS,0,
+full,gsm8k-test-51,5,3,IRG,0,
+full,gsm8k-test-72,221,281,AS,0,3*43 computed as 189
+full,gsm8k-test-80,10,18,WRS,0,
+full,gsm8k-test-104,500,83,WRS,0,
+full,gsm8k-test-105,20,15,IRG,0,
+full,gsm8k-test-125,10,8,WRS,0,
+full,gsm8k-test-126,82,44,IRG,0,
+full,gsm8k-test-133,13,1,WRS,0,
+full,gsm8k-test-135,40,15,IRG,0,
+full,gsm8k-test-140,20,60,WRS,0,
+full,gsm8k-test-160,16,20,WRS,0,
+full,gsm8k-test-167,16,20,AS,0,3x+4=28 solved as x=10
+full,gsm8k-test-217,15,11,IRG,0,
+full,gsm8k-test-221,90,30,IRG,0,
+full,gsm8k-test-232,75,100,WRS,0,
+full,gsm8k-test-241,6,3,WRS,0,
+full,gsm8k-test-256,45,150,WRS,0,
+full,gsm8k-test-298,500,350,WRS,0,
+full,gsm8k-test-306,10,20,IRG,0,
+full,gsm8k-test-312,32,35,WRS,0,
+full,gsm8k-test-319,15,135.,WRS,0,
+full,gsm8k-test-332,44,48,AS,0,0.4*220 computed as 96
+lora,gsm8k-test-11,694,794,AS,1,204+160+330 summed to 794
+lora,gsm8k-test-18,7,28,WRS,1,
+lora,gsm8k-test-25,2,2.00,AFL,1,correct value written as 2.00
+lora,gsm8k-test-27,16,240,WRS,1,
+lora,gsm8k-test-32,35,700,WRS,1,
+lora,gsm8k-test-34,23,25.5,AS,1,5+40/2 computed as 27.5
+lora,gsm8k-test-41,200,1200,IRG,0,
+lora,gsm8k-test-51,5,3.5,WRS,1,
+lora,gsm8k-test-104,500,83,WRS,1,
+lora,gsm8k-test-125,10,24,WRS,0,
+lora,gsm8k-test-126,82,44,IRG,0,
+lora,gsm8k-test-133,13,19,AS,0,41-4-24 computed as 19
+lora,gsm8k-test-140,20,80,WRS,1,
+lora,gsm8k-test-194,10,18,WRS,0,
+lora,gsm8k-test-232,75,50,WRS,0,
+lora,gsm8k-test-241,6,3,WRS,0,
+lora,gsm8k-test-276,9,7.875,WRS,0,
+lora,gsm8k-test-298,500,900.,WRS,0,
+lora,gsm8k-test-312,32,27,IRG,0,
+lora,gsm8k-test-347,36,48,WRS,1,
+lora,gsm8k-test-354,45,125,WRS,1,
+lora,gsm8k-test-401,14400,36000,WRS,1,
+lora,gsm8k-test-488,6,4,AS,0,27*2/3 computed as 14
+lora,gsm8k-test-523,74,68,IRG,1,
+lora,gsm8k-test-543,6,26,WRS,0,
+lora,gsm8k-test-545,30,60,WRS,0,
+lora,gsm8k-test-567,9,11,WRS,1,
+lora,gsm8k-test-569,21,-105,WRS,1,
+lora,gsm8k-test-573,600,2800,WRS,0,
+lora,gsm8k-test-598,69,6,WRS,0,
