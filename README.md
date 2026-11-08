@@ -11,8 +11,10 @@ Each run adapts one base model with one method through three domains in sequence
 | Base models | `Qwen/Qwen2.5-0.5B` (primary, 3 seeds), `Qwen/Qwen3-0.6B-Base` (replication, 1 seed) |
 | Methods | full fine-tuning; LoRA r=16, α=32 on q,k,v,o,gate,up,down; sequential bottleneck adapter after each FFN block, sized to LoRA's parameter count (±5%) |
 | Domains | MedMCQA → CaseHOLD → CodeAlpaca-20k, 2,000 training examples each, 2 epochs |
-| Retention | MMLU (1,260 questions, 42 non-overlapping subjects), GSM8K (500 problems) — evaluated with lm-evaluation-harness (`eval/`, Participant 2) |
+| Retention | MMLU (1,260 questions, 42 non-overlapping subjects), GSM8K (500 problems) — evaluated with lm-evaluation-harness (`src/eval.py`) |
 | Hardware | one NVIDIA T4 (Kaggle), fp16 mixed precision |
+
+**Report.** The submitted report is `docs/Assignment4_Report.docx`. The Protocol Freeze form exactly as uploaded to Moodle on 2 November 2026, 03:38 (UTC+5) is `docs/Appendix_A_Protocol_Freeze.docx`; deviations from it are logged in `docs/deviations.md`.
 
 ## Repository structure
 
@@ -29,6 +31,14 @@ src/dev_eval.py           development metrics used inside training (never test d
 src/train.py              one sequential run (model x method x seed x order)
 src/lr_search.py          equal 3-value learning-rate budget per method on Stage-1 dev data
 src/pull_results.py       collects run logs pushed to the Hub by the Kaggle sessions
+src/plan_eval.py          H2 matched checkpoints (dev data only) and evaluation job lists
+src/eval.py               test-set evaluation of a checkpoint with lm-eval, answers stored per item
+src/stats.py              forgetting, retention, paired bootstrap + Holm, hypothesis verdicts, all tables
+src/figures.py            report figures from the tables
+src/training_report.py    training-log tables and figures (efficiency, dev trajectories, LR search, data pipeline)
+tasks/casehold.yaml       custom lm-eval task for the CaseHOLD test subset
+configs/eval.yaml         frozen evaluation settings
+notebooks/kaggle_eval.ipynb runner for test-set evaluation on Kaggle
 notebooks/kaggle_run.ipynb  runner for Kaggle (pilot, LR search, final runs)
 tests/                    offline smoke test, data-pipeline test, parameter-matching check
 data/                     ID lists, manifest and SHA256SUMS (text files are regenerated, not committed)
@@ -87,12 +97,32 @@ python src/train.py --method <full|lora|adapter> --seed <1|2|3> --model primary 
 python src/pull_results.py --repos <hf-user1>/rmt-peft-ckpts <hf-user2>/rmt-peft-ckpts <hf-user3>/rmt-peft-ckpts
 ```
 
-**6. Tables and figures.** From the committed logs and per-item test outputs:
+**6. Test-set evaluation (Participant 2 and 3).** Full test sets at Stage 0 (once per base model), at the end of each stage and at the H2 matched checkpoint. `notebooks/kaggle_eval.ipynb` runs the same commands on 2 × T4.
 ```bash
-python src/training_report.py   # training logs: efficiency, dev trajectories, LR search, data pipeline (fig4-6)
-python src/stats.py             # test results: main table, pairwise tests, hypotheses
-python src/figures.py           # fig1-3
+python src/prepare_data.py                                   # rebuilds data/test/ and checks hashes
+python src/plan_eval.py --methods full,lora --stage0 --name participant2 --gpus 2
+                                                             # matched checkpoints (dev data only) + job lists
+python src/eval.py --run_id q25-05b_full_MLC_s1 --checkpoint stage0 --pilot 50     # pilot, never reported
+python src/eval.py --jobs results/eval/jobs/participant2_gpu0.txt                  # one worker per GPU
 ```
+Settings are frozen in `configs/eval.yaml` (lm-eval 0.4.13; MMLU 5-shot and GSM8K 5-shot greedy as in the freeze form; MedMCQA/CaseHOLD 0-shot log-likelihood; MBPP 3-shot pass@1). CaseHOLD is a custom task, `tasks/casehold.yaml`. Every answer is stored per item:
+
+| File in `results/eval/<run_id>/<checkpoint>/` | Content |
+|---|---|
+| `mmlu_primary.jsonl`, `mmlu_overlap.jsonl`, `gsm8k.jsonl`, `medmcqa.jsonl`, `casehold.jsonl`, `mbpp.jsonl` | one line per test item: `item_id`, `pred`, `gold`, `correct` (+ subject, log-likelihoods; GSM8K: strict-match and raw response) |
+| `lm_eval_<group>.json` | lm-eval aggregate output |
+| `summary.json` | scores, timing, checkpoint metadata, environment, subset hashes |
+
+Stage 0 is stored once as `results/eval/<model>_base/stage0/`.
+
+**7. Statistics, tables and figures** — all report numbers come from these two commands:
+```bash
+python src/training_report.py                                # training logs -> efficiency, dev trajectories, LR search, data pipeline (fig4-6)
+python src/stats.py && python src/figures.py                 # -> results/tables/, results/figures/
+python src/stats.py --model replication && python src/stats.py --order CLM   # descriptive, 1 seed
+python tests/test_stats.py                                   # offline check of the pipeline on synthetic data
+```
+`results/tables/report_numbers.md` lists every key number with its source table.
 
 If a Kaggle session stops mid-run, continue from the last completed stage (the run reseeds identically at every stage start):
 ```bash
@@ -124,3 +154,10 @@ Only public data are used; no personal data are processed. MedMCQA (`openlifesci
 ## Licence
 
 Code: MIT (see `LICENSE`).
+
+## 8. Replication (Qwen3-0.6B-Base)
+
+Test-set results of the three replication runs are in `results/eval/q3-06b_*` (Stage 0, end of every stage,
+and the LoRA matched checkpoint `stage1_medmcqa_050`, deviation 13). Run `python src/replication.py` to produce
+`results/tables/replication_*.csv` and `replication_numbers.md` (one seed: scores, forgetting, retention, paired item
+bootstrap with Holm, matched-checkpoint retention). Generation used the frozen 256-token limit and batch 16 (deviation 14): `python src/eval.py --jobs <file> --hub_repo Rakhat3110/rmt-peft-ckpts --strict_gen_cap --gen_batch_size 16` (or run `notebooks/kaggle_eval_replication.ipynb`).

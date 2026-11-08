@@ -1,0 +1,33 @@
+# Frozen test-set evaluation settings (Assignment 4, Appendix A). Participant 2.
+# Any change after the freeze upload goes to docs/deviations.md.
+
+harness: lm-eval==0.4.13          # pinned in requirements.txt
+hub_repo: alishermede/rmt-peft-ckpts   # public; checkpoints under <run_id>/<checkpoint>/
+dtype: float16                    # fall back to float32 only if Stage 0 gives NaN/garbage (log as deviation)
+batch_size: "auto:4"   # lm-eval picks the largest batch that fits, recomputed 4x as prompts shorten (fixed 16 ran out of memory on 5-shot MMLU)
+gen_batch_size: 32                # GSM8K / MBPP generation (auto picks ~1 there: it assumes a 4096-token prompt)
+max_length: 4096                  # context window given to HFLM (longest CaseHOLD prompt is far shorter)
+max_gen_toks: 256                 # lm-eval HFLM default, fixed for GSM8K and MBPP
+seeds: {random: 0, numpy: 1234, torch: 1234, fewshot: 1234}   # lm-eval defaults, recorded explicitly
+
+# group -> lm-eval tasks, few-shot, ID subset file(s) in data/test_subsets/
+groups:
+  mmlu:
+    num_fewshot: 5                # first 5 items of the MMLU dev split (lm-eval default sampler)
+    subsets: [mmlu_primary, mmlu_overlap]   # 42 subjects x 30 = 1,260 ; 15 subjects x 30 = 450
+  gsm8k:
+    num_fewshot: 5                # greedy; metrics: flexible-extract (primary), strict-match
+    tasks: [gsm8k]
+    subsets: [gsm8k]
+  medmcqa:
+    num_fewshot: 0                # log-likelihood over A-D; official validation split
+    tasks: [medmcqa]
+    subsets: [medmcqa_test]
+  casehold:
+    num_fewshot: 0                # custom task tasks/casehold.yaml, reads data/test/casehold_test.jsonl
+    tasks: [casehold_test]
+    subsets: [casehold_test]
+  mbpp:
+    num_fewshot: 3                # lm-eval default prompt (3 fixed examples); greedy; pass@1
+    tasks: [mbpp]
+    subsets: [mbpp_test]
