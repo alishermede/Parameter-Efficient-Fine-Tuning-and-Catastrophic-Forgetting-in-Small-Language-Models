@@ -124,6 +124,11 @@ python tests/test_stats.py                                   # offline check of 
 ```
 `results/tables/report_numbers.md` lists every key number with its source table.
 
+The error analysis (manuscript Table 5) is stored in `results/tables/error_analysis_gsm8k.csv`: the first 30 GSM8K test items, by test index, that the base model solved and the method failed after Stage 3 (seed 1), for full fine-tuning and LoRA. Each row has the item id, gold and predicted answers, one primary category from the frozen taxonomy (WRS wrong reasoning step, IRG incomplete generation, AS arithmetic slip, AFL answer-format loss, SD syntax drift), whether the response kept the `####` answer line, and a short note. Categories were proposed by an AI assistant and checked by one author. Counts per method and category reproduce Table 5:
+```bash
+python -c "import pandas as pd; print(pd.read_csv('results/tables/error_analysis_gsm8k.csv').groupby(['method','category']).size())"
+```
+
 If a Kaggle session stops mid-run, continue from the last completed stage (the run reseeds identically at every stage start):
 ```bash
 python src/train.py ... --resume_stage 1 --resume_ckpt <ckpt_root>/<run_id>/stage1_medmcqa_100
